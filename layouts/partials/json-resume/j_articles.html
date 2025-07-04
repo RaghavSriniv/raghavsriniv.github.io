@@ -1,0 +1,30 @@
+{{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
+{{ with $cv.j_articles }}
+  <div class="jr__list jr-publications__list">
+    {{ range . }}
+      <div class="jr__item jr-publications__item">
+        <div>
+          <div class="jr-publications__name">
+            {{ if .url }}
+              <a href="{{ .url }}">{{ .name }}</a>
+            {{ else }}
+              <span>{{ .name }}</span>
+            {{ end }}
+          </div>
+          {{ if .authors }}
+            <div>
+              {{ .authors }}
+            </div>
+          {{ end }}
+          <div class="jr-publications__publisher">{{ .publisher }}
+            <span class="jr__date jr-publications__release-date">
+              ({{ .releaseDate }})
+            </span>
+          </div>
+        </div>
+
+        <p class="jr__item-content">{{ .summary }}</p>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

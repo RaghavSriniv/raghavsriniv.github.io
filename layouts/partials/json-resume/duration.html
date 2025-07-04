@@ -1,0 +1,13 @@
+<div class="jr__date-range">
+  {{ if .context.startDate }}
+  <span>{{ .context.startDate }}</span>
+  <span>-</span>
+  <span>
+    {{- with .context.endDate -}}
+      {{- . -}}
+    {{- else -}}
+      {{ .site.Params.jsonResume.present | default "present" }}
+    {{- end -}}
+  </span>
+  {{ end }}
+</div>
