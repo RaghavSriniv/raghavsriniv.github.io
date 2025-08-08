@@ -34,6 +34,61 @@
     </item>
     
     <item>
+      <title>Introduction to Dynamic Analysis and Simulation</title>
+      <link>http://localhost:1313/course_resources/intro_dyn_analys_simu/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/course_resources/intro_dyn_analys_simu/</guid>
+      <description>&lt;h3 id=&#34;welcome&#34;&gt;Welcome!&lt;/h3&gt;
+&lt;h5 id=&#34;_we-live-in-time-yet-in-economics-classrooms-time-stands-still_-&#34;&gt;&lt;em&gt;We live in time, yet in economics classrooms, time stands still!&lt;/em&gt; 😸&lt;/h5&gt;
+&lt;br&gt;
+&lt;p&gt;Undergraduate economics teaching mainly uses the comparative static method.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The comparative static method is like taking snapshots of the system at different times and comparing them. But it does not tell us anything about the the transition between them - whether &lt;strong&gt;journey&lt;/strong&gt; is bumpy or smooth!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;br&gt; 
+&lt;p&gt;&lt;strong&gt;Dynamics&lt;/strong&gt; is the study about the quality of the journey and what makes the journey bumpy or smooth.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Simulation&lt;/strong&gt; is a tool to visualize the dynamics of the system, i.e., the journey. It&amp;rsquo;s not just a computational tool, but it is an active learning tool to understand basic economic intuition.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;how-to-use-the-platform&#34;&gt;How to use the platform?&lt;/h3&gt;
+&lt;p&gt;The aim of &lt;a href=&#34;https://raghavsrinivas.shinyapps.io/Model_1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Econdyn-Lab&lt;/strong&gt;&lt;/a&gt; is to provide a simulation tool to help experimental learning in Economics.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;First, play around the with the parameter values and initial conditions in various models and see how the output plots change -  thanks to our dynamic and talented intern &lt;strong&gt;Aditya Mahadevan&lt;/strong&gt; for working on the simulation toolbars using the Shiny package in R (open source). 🫡
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Second, go to the main reference &lt;a href=&#34;https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893?srsltid=AfmBOope-Gqo9JJP0K0daIguN1U2Ox5amZjuKVKVRzDjAiF5-Zh0tF22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;textbook&lt;/a&gt; and study the models to see how the dynamics in those plots are generated.
+&lt;br&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Third, experimenting with the paramter values will help you understand what values make &amp;ldquo;economic&amp;rdquo; sense and what values don&amp;rsquo;t!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h5 id=&#34;_simulate-experiment-and-repeat_-&#34;&gt;&lt;em&gt;Simulate, Experiment, and Repeat&lt;/em&gt; 😹&lt;/h5&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;econdyn-lab-team&#34;&gt;Econdyn-Lab Team&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Srinivas Raghavendra,
+Azim Premji University, India.&lt;/li&gt;
+&lt;li&gt;Aditya Mahadevan, BA Economics, Azim Premji University, India.&lt;/li&gt;
+&lt;li&gt;Petri Piiroinen,
+Chalmers University, Sweden.&lt;/li&gt;
+&lt;li&gt;Zico Dasgupta, Azim Premji University, India&lt;/li&gt;
+&lt;li&gt;Kedar Kulkarni, Azim Premji University, India&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
@@ -278,7 +333,7 @@
 
 
 
-&lt;div id=&#34;chart-825164739&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-435796182&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -296,7 +351,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-825164739&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-435796182&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -919,6 +974,27 @@ Parallel 4   :         des6, after des4, 1d
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/preprint/</guid>
       <description>&lt;p&gt;This work is driven by the results in my &lt;a href=&#34;http://localhost:1313/publication/conference-paper/&#34;&gt;previous paper&lt;/a&gt; on LLMs.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://localhost:1313/publication/journal-article-copy/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-article-copy/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
