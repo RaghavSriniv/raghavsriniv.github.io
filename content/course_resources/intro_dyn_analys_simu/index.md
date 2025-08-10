@@ -16,7 +16,8 @@ draft: false
 ### Welcome!
 
 
-##### _We live in time, yet in economics classrooms, time stands still!_ 😸
+_We live in time, yet in economics classrooms, time stands still!_ 😸
+<br>
 <br>
 
 Undergraduate economics teaching mainly uses the comparative static method.
@@ -48,7 +49,14 @@ The aim of [**Econdyn-Lab**](https://raghavsrinivas.shinyapps.io/Model_1/) is to
 
 <br>
 
-##### _Simulate, Experiment, and Repeat_ 😹
+ _Simulate, Experiment, and Repeat_ 😹
+
+<br>
+
+### Models
+
+1. [Cobweb model](https://raghavsrinivas.shinyapps.io/Model_1/)
+2. [Cobweb model with Expectations](https://raghavsrinivas.shinyapps.io/Model_2/)
 
 <br>
  
