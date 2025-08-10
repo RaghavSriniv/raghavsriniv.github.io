@@ -249,7 +249,13 @@
 
 
 
+<<<<<<< HEAD
 &lt;div id=&#34;chart-198273456&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+||||||| parent of 7ec5ca8 (Last commit before rebase)
+&lt;div id=&#34;chart-659182347&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+=======
+&lt;div id=&#34;chart-694758321&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+>>>>>>> 7ec5ca8 (Last commit before rebase)
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -267,7 +273,13 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
+<<<<<<< HEAD
         window.Plotly.newPlot(&#39;chart-198273456&#39;, chart.data, chart.layout, {responsive: true});
+||||||| parent of 7ec5ca8 (Last commit before rebase)
+        window.Plotly.newPlot(&#39;chart-659182347&#39;, chart.data, chart.layout, {responsive: true});
+=======
+        window.Plotly.newPlot(&#39;chart-694758321&#39;, chart.data, chart.layout, {responsive: true});
+>>>>>>> 7ec5ca8 (Last commit before rebase)
       });
     }, 500 );
   })();
