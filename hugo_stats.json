@@ -556,12 +556,18 @@
       "about-me",
       "callouts",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "chart-841967523",
 ||||||| parent of 7ec5ca8 (Last commit before rebase)
       "chart-671539842",
 =======
       "chart-268943157",
 >>>>>>> 7ec5ca8 (Last commit before rebase)
+||||||| parent of fba9126 (modified file from rebase)
+      "chart-268943157",
+=======
+      "chart-942856173",
+>>>>>>> fba9126 (modified file from rebase)
       "charts",
       "code",
       "course_resources",
