@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Introduction to Dynamic Analysis and Simulation</title>
+      <title>Introduction to Dynamic Analysis and Simulation (IDyAS)</title>
       <link>http://localhost:1313/course_resources/intro_dyn_analys_simu/</link>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/course_resources/intro_dyn_analys_simu/</guid>
@@ -333,7 +333,7 @@ Chalmers University, Sweden.&lt;/li&gt;
 
 
 
-&lt;div id=&#34;chart-435796182&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-198273456&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -351,7 +351,7 @@ Chalmers University, Sweden.&lt;/li&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-435796182&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-198273456&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

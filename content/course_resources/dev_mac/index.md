@@ -1,7 +1,7 @@
 ---
-title: Macroeconomics
+title: Development Macroeconomics
 summary: Here you'll find all links to all the resources for the course!
-date: 2025-08-08
+date: 2025-07-08
 type: docs
 math: false
 tags:
