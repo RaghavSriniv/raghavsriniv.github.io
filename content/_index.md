@@ -77,7 +77,7 @@ sections:
   - block: collection
     # id: publications
     content:
-      title: Selected Chapters in Edited Books
+      title: Selected Chapters in Books
       filters:
         folders:
           - chapters
