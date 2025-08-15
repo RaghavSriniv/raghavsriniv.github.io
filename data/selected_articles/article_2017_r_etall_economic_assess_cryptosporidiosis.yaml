@@ -1,0 +1,17 @@
+---
+title: "Economic assessment of waterborne outbreak of cryptosporidiosis"
+weight: 107
+authors: "Chyzheuskaya, A., Cormican, M., O’Donovan, D., Prendergast, M., O’Donoghue, C., Morris, D."
+date: "2017"
+# Publication name and optional abbreviated publication name.
+publication: "Emerging Infectious Diseases, 23(10), 1650-1656"
+link: "https://wwwnc.cdc.gov/eid/article/23/10/15-2037_article#;"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

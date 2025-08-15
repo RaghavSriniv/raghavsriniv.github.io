@@ -1,0 +1,17 @@
+---
+title: "Testing for nonlinear dependence in the credit default swap market"
+weight: 114
+authors: "Maloney, K."
+date: "2011"
+# Publication name and optional abbreviated publication name.
+publication: "Economics Research International"
+link: "https://onlinelibrary.wiley.com/doi/10.1155/2011/708704"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

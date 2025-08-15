@@ -1,0 +1,17 @@
+---
+title: "The macroeconomic loss due to violence against women: The case of Vietnam"
+weight: 108
+authors: "Duvvury, N., Ashe, S."
+date: "2017"
+# Publication name and optional abbreviated publication name.
+publication: "Feminist Economics, 23(4), 62–89"
+link: "https://www.tandfonline.com/doi/full/10.1080/13545701.2017.1330546"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

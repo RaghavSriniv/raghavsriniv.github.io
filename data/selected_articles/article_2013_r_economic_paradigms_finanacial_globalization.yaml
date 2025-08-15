@@ -1,0 +1,17 @@
+---
+title: "Economic paradigms and democracy in the era of financial globalisation"
+weight: 113
+authors:
+date: "2013"
+# Publication name and optional abbreviated publication name.
+publication: "Yojana, 57(1), 18–13"
+link: "http://www.yojana.gov.in/topstory_details.asp?storyid=504"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

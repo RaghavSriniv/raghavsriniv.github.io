@@ -1,0 +1,16 @@
+---
+title: "Community cohesion and violence against women in Ghana, Pakistan, and South Sudan: A secondary data analysis"
+weight: 104
+authors: "Ibrahim, N., Scriver, S., Duvvury, N., Elmusharaf, K."
+date: "2022"
+publication: "Women’s Health, 18"
+link: "https://journals.sagepub.com/doi/10.1177/17455057221123998"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

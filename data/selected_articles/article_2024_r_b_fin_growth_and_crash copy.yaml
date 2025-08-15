@@ -1,0 +1,16 @@
+---
+title: "Financial Growth and Crash under Shadow Banking"
+weight: 100
+# list of authors other than Srinivas Raghavendra
+authors: "Bhaduri, A."
+date: "2024"
+publication: "Review of Political Economy, 36:3, 1156–1173"
+link: "https://www.tandfonline.com/doi/full/10.1080/09538259.2022.2099667"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+draft: false
+---

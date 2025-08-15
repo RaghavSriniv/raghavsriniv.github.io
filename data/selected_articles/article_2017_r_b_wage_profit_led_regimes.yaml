@@ -1,0 +1,17 @@
+---
+title: "Wage-and profit-led regimes under modern finance: an exploration"
+weight: 109
+authors: "Bhaduri, A."
+date: "2017"
+# Publication name and optional abbreviated publication name.
+publication: "Review of Keynesian Economics, 5(3), 426–438"
+link: "https://www.elgaronline.com/view/journals/roke/5-3/roke.2017.03.05.xml"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

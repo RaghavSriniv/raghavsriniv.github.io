@@ -1,0 +1,16 @@
+---
+title: "Economics, politics and democracy in the age of credit-rating capitalism"
+weight: 112
+date: "2013"
+# Publication name and optional abbreviated publication name.
+publication: "Economic and Political Weekly, 34–38"
+link: "https://www.epw.in/journal/2013/05/perspectives/economics-politics-and-democracy-age-credit-rating-capitalism.html"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

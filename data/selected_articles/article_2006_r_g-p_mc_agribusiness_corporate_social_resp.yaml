@@ -1,0 +1,17 @@
+---
+title: "Agribusiness, corporate social responsibility and transnational labour relations: a review"
+weight: 121
+authors: "Gonzalez-Perez, M.A., McDonough, T."
+date: "2006"
+# Publication name and optional abbreviated publication name.
+publication: "Indian Journal of Labour Economics, 49(4), 925–936"
+link: ""
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

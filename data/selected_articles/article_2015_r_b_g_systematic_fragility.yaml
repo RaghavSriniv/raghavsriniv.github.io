@@ -1,0 +1,17 @@
+---
+title: "On the systemic fragility of finance‐led growth"
+weight: 111
+authors: "Bhaduri, A., Guttal, V."
+date: "2015"
+# Publication name and optional abbreviated publication name.
+publication: "Metroeconomica, 66(1), 158–186"
+link: "https://onlinelibrary.wiley.com/doi/10.1111/meca.12070"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

@@ -53,37 +53,37 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  - block: collectiontest
-    id: publications
-    content:
-      title: Books
-      subtitle: aaa
-      filters:
-        folders:
-          - books
-        exclude_featured: false
-    design:
-      view: community/list_of_publications
-  - block: collection
-    # id: publications
-    content:
-      title: Selected Journal Articles
-      filters:
-        folders:
-          - articles
-        exclude_featured: false
-    design:
-      view: community/list_of_publications
-  - block: collection
-    # id: publications
-    content:
-      title: Selected Chapters in Books
-      filters:
-        folders:
-          - chapters
-        exclude_featured: false
-    design:
-      view: community/list_of_publications
+  # - block: collectiontest
+  #   id: publications
+  #   content:
+  #     title: Books
+  #     subtitle: aaa
+  #     filters:
+  #       folders:
+  #         - books
+  #       exclude_featured: false
+  #   design:
+  #     view: community/list_of_publications
+  # - block: collection
+  #   # id: publications
+  #   content:
+  #     title: Selected Journal Articles
+  #     filters:
+  #       folders:
+  #         - articles
+  #       exclude_featured: false
+  #   design:
+  #     view: community/list_of_publications
+  # - block: collection
+  #   # id: publications
+  #   content:
+  #     title: Selected Chapters in Books
+  #     filters:
+  #       folders:
+  #         - chapters
+  #       exclude_featured: false
+  #   design:
+  #     view: community/list_of_publications
   # - block: collection
   #   id: talks
   #   content:
