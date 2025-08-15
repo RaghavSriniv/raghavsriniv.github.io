@@ -19,7 +19,7 @@ main:
     # - name: Teaching
   #   url: teaching/
   #   weight: 300
-  - name: Teaching Resources
+  - name: Teaching
     url: course_resources/
     weight: 400
   # - name: Practice & Public Engagement

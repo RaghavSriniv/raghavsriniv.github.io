@@ -14,6 +14,7 @@ sections:
     id: teaching
     content:
       title: Teaching
+      subtitle: "adfdafas"
       filters:
         folders:
           - teaching

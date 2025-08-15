@@ -57,6 +57,14 @@ The aim of [**Econdyn-Lab**](https://raghavsrinivas.shinyapps.io/Model_1/) is to
 
 1. [Cobweb model](https://raghavsrinivas.shinyapps.io/Model_1/)
 2. [Cobweb model with Expectations](https://raghavsrinivas.shinyapps.io/Model_2/)
+3. [Keynesian Multiplier](https://raghavsrinivas.shinyapps.io/Model_3/)
+4. [The IS-LM model](https://raghavsrinivas.shinyapps.io/Model_4/)
+5. [Government deficit, debt and stabilization policy](https://raghavsrinivas.shinyapps.io/Model_5/)
+6. [Expectation dynamics and inflation](https://aditya04.shinyapps.io/Model_6/)
+7. [Solow's growth dynamics](https://aditya04.shinyapps.io/Model_7/)
+8. [Endogenous growth dynamics](https://adityam2004.shinyapps.io/Model_8/)
+9. [Business cycle: Multiplier-Accelerator dynamics](https://aditya04.shinyapps.io/Model_9/)
+10. [Stock-Flow dynamics: A simple model of a macroeconomy](https://aditya04.shinyapps.io/Model_10/)
 
 <br>
  
