@@ -36,7 +36,7 @@ Undergraduate economics teaching mainly uses the comparative static method.
 
 ### How to use the platform?
 
-The aim of [**Econdyn-Lab**](https://raghavsrinivas.shinyapps.io/Model_1/) is to provide a simulation tool to help experimental learning in Economics.
+The aim of **Econdyn-Lab** is to provide a simulation tool to help experimental learning in Economics.
 <br>
 <br> 
 * First, play around the with the parameter values and initial conditions in various models and see how the output plots change -  thanks to our dynamic and talented intern **Aditya Mahadevan** for working on the simulation toolbars using the Shiny package in R (open source). 🫡
