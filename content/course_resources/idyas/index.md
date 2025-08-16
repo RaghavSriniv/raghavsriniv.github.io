@@ -8,9 +8,7 @@ tags:
   - Aug 2025
 params:
   breadcrumb: true
-image: 
- <img src="featured.jpg" alt="cover image" width="100"/>
-
+image:
   caption: "Cover image of An Introduction to Economic Dynamics Modelling Analysis and Simulation by Raghavendra and Piiroinen"
 draft: false
 ---
