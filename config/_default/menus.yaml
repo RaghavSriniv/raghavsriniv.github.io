@@ -17,8 +17,8 @@ main:
   #   url: /#news
   #   weight: 13
   # - name: Teaching
-  #   url: course_resources/
-  #   weight: 400
+    url: course_resources/
+    weight: 400
   - name: EconDyn Lab
     url: econdyn/
     weight: 500
