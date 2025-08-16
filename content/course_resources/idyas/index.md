@@ -9,7 +9,7 @@ tags:
 params:
   breadcrumb: true
 image:
-  caption: "Book cover of An Introduction to Economic Dynamics Modelling Analysis and Simulation by Raghavendra and Piiroinen"
+  caption: "Cover image of An Introduction to Economic Dynamics Modelling Analysis and Simulation by Raghavendra and Piiroinen"
 draft: false
 ---
 
