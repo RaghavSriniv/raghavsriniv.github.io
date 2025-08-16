@@ -16,12 +16,12 @@ main:
   # - name: News
   #   url: /#news
   #   weight: 13
-    # - name: Teaching
-  #   url: teaching/
-  #   weight: 300
   - name: Teaching
     url: course_resources/
     weight: 400
+  - name: EconDyn Lab
+    url: econdyn/
+    weight: 500
   # - name: Practice & Public Engagement
   #   url: projects/
   #   weight: 400
