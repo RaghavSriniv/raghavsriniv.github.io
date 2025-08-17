@@ -19,7 +19,7 @@ _We live in time, yet in economics classrooms, time stands still!_ 😸
 
 Undergraduate economics teaching mainly uses the comparative static method.
 
-> > The comparative static method is like taking snapshots of the system at different times and comparing them. But it does not tell us anything about the the transition between them - whether **journey** is bumpy or smooth!
+> > The comparative static method is like taking snapshots of the system at different times and comparing them. But it does not tell us anything about the the transition between them - whether the **journey** is bumpy or smooth!
 
 <br>
 
@@ -31,7 +31,7 @@ Undergraduate economics teaching mainly uses the comparative static method.
 
 ### How to use the platform?
 
-The aim of **Econdyn-Lab** is to provide a simulation tool to help experimental learning in Economics.
+The aim of **Econdyn Lab** is to provide a simulation tool to help experimental learning in Economics.
 <br>
 <br>
 
@@ -64,7 +64,7 @@ _Simulate, Experiment, and Repeat_ 😹
 
 <br>
  
-### Econdyn-Lab Team
+### Econdyn Lab Team
 
 - Srinivas Raghavendra,
   Azim Premji University, India.

@@ -187,4 +187,4 @@ awards:
 
 ## About Me
 
-Srinivas Raghavendra is a macroeconomist, and his research is focussed on diverse themes in the areas of financialisation and macroeconomic stability, analysis of economic development from a macro-structural perspective, and feminist economics.
+I am a macroeconomist, and my research is focussed on diverse themes in the areas of financialisation and macroeconomic stability, analysis of economic development from a macro-structural perspective, and feminist economics.
