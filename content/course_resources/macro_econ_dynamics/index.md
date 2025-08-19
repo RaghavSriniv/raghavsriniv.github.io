@@ -8,7 +8,7 @@ tags:
   - Aug 2025
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
-draft: true
+draft: false
 ---
 
 

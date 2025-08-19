@@ -20,5 +20,5 @@ sections:
           - course_resources
     design:
       view: article-grid
-      columns: 1
+      columns: 2
 ---

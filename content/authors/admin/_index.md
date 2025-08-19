@@ -50,6 +50,7 @@ interests:
   - Macroeconomics
   - Development
   - Complex Systems
+  - Feminist Economics
 
 education:
   - area: PhD Economics
@@ -61,8 +62,8 @@ education:
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
-  - area: M.Phil. Applied Economics
-    institution: Centre for Development Studies, India
+  # - area: M.Phil. Applied Economics
+  #   institution: Centre for Development Studies, India
     # date_start: 2016-01-01
     # date_end: 2020-12-31
     # summary: |
@@ -72,8 +73,8 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: M.Phil. Economics
-    institution: Madurai Kamaraj University, India
+  # - area: M.Phil. Economics
+  #   institution: Madurai Kamaraj University, India
     # date_start: 2016-01-01
     # date_end: 2020-12-31
     # summary: |
