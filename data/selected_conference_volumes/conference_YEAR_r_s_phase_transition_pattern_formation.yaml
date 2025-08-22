@@ -1,0 +1,19 @@
+---
+title: "Phase Transition and Pattern Formation in a model of Collective Choice Dynamics"
+weight: 400
+authors: "Sinha, S."
+date: "2004"
+# Publication name and optional abbreviated publication name.
+publication: "Santa Fe Institute paper, No: 04−09−028"
+link: "https://sfi-edu.s3.amazonaws.com/sfi-edu/production/uploads/sfi-com/dev/uploads/filer/0e/be/0ebe442f-0612-4143-983c-1edc2b4c013e/04-09-028.pdf"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---
+
+   

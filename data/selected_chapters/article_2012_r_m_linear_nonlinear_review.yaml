@@ -1,0 +1,19 @@
+---
+title: "A linear and nonlinear review of the arbitrage-free parity theory for the CDS and bond markets"
+weight: 300
+authors: "Moloney, K."
+date: "2012"
+# Publication name and optional abbreviated publication name.
+publication: "In M. Cummins, F. Murphy & J.J.H. Miller (Eds.), Topics in Numerical Methods for Finance (pp. 177–200). Springer"
+link: "https://link.springer.com/book/10.1007/978-1-4614-3433-7"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---
+
+   

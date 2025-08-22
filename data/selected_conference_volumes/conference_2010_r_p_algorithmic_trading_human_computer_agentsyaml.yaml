@@ -1,0 +1,19 @@
+---
+title: "Algorithmic trading with human agents and computer agents in a virtual stock & futures market"
+weight: 100
+authors: "Paraschiv, D."
+date: "2010"
+# Publication name and optional abbreviated publication name.
+publication: "Proceedings of the International Conference on Computational and Financial Econometrics"
+# link: "https://www.routledge.com/Conflict-Demand-and-Economic-Development-Essays-in-Honour-of-Amit-Bhaduri/Basu-Das/p/book/9780367635589"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---
+
+   

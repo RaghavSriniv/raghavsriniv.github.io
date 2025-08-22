@@ -1,0 +1,19 @@
+---
+title: "Emergence of two-phase behaviour in markets through interaction and learning in agents with bounded rationality"
+weight: 600
+authors: "Sinha, S."
+date: "2006"
+# Publication name and optional abbreviated publication name.
+publication: "In H. Takayasu (Ed.), Practical Fruits of Econophysics (pp. 200–204). Springer"
+link: "https://link.springer.com/chapter/10.1007/4-431-28915-1_36"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---
+
+   

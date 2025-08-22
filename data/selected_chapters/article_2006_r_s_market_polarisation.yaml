@@ -1,0 +1,19 @@
+---
+title: "Market polarisation in presence of individual choice volatility"
+weight: 500
+authors: "Sinha, S."
+date: "2006"
+# Publication name and optional abbreviated publication name.
+publication: "In C. Bruun (Ed.), Advances in Artificial Economics: The Economy as a Complex Dynamic System (pp. 177–190). Springer"
+link: "https://link.springer.com/chapter/10.1007/3-540-37249-0_13"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---
+
+   

@@ -21,12 +21,20 @@
 					{{ range $element := sort .Site.Data.books "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
 						<span class="article-metadata li-cite-author">
-							<span class="font-bold">Srinivas Raghavendra</span>,
+							<span class="font-bold">Srinivas Raghavendra</span><!--
+							-->{{ with $element.authors}}<!--
+							-->,
 							<span>{{ $element.authors }}</span>
+							{{ end }}
 						</span>
 						({{ $element.date }}).
-						<a class="underline" href="{{ $element.link}}" target="blank">
-						{{ $element.title }}</a>. {{ $element.publication }}.
+						{{ if $element.link}}
+							<a class="underline" href="{{ $element.link}}" target="blank">
+						{{ $element.title }}</a>.
+						{{ else }}
+							{{ $element.title}}.
+						{{ end }}
+						{{ $element.publication }}.
 					</div>
 					{{ end }}
 				</div>
@@ -36,7 +44,7 @@
 		<!-- Selected Journal Articles -->
 		<div class="flex flex-col items-center px-6">
 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
-				Selected Journal Articles
+				Recent Journal Articles
 			</div>
 		</div>
 		<div class="flex flex-col items-center px-6">
@@ -54,12 +62,84 @@
 							{{ end }}
 						</span>
 						({{ $element.date }}).
-						<a class="underline" href="{{ $element.link}}" target="blank">
-						{{ $element.title }}</a>. {{ $element.publication }}.
+						{{ if $element.link}}
+							<a class="underline" href="{{ $element.link}}" target="blank">
+						{{ $element.title }}</a>.
+						{{ else }}
+							{{ $element.title}}.
+						{{ end }}
+						{{ $element.publication }}.
 					</div>
 					{{ end }}
 				</div>
 			</div>
 		</div>
 
+		<!-- Selected Chapters in Books -->
+		<div class="flex flex-col items-center px-6">
+			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
+				Selected Chapters in Books
+			</div>
+		</div>
+		<div class="flex flex-col items-center px-6">
+			<div class="mt-8 sm:mt-10 container max-w-3xl w-full">
+
+				<div class="flex flex-col space-y-3">
+					<!-- Each pub-item -->
+					{{ range $element := sort .Site.Data.selected_chapters "weight" }}
+					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+						<span class="article-metadata li-cite-author">
+							<span class="font-bold">Srinivas Raghavendra</span><!--
+							-->{{ with $element.authors}}<!--
+							-->,
+							<span>{{ $element.authors }}</span>
+							{{ end }}
+						</span>
+						({{ $element.date }}).
+						{{ if $element.link}}
+							<a class="underline" href="{{ $element.link}}" target="blank">
+						{{ $element.title }}</a>.
+						{{ else }}
+							{{ $element.title}}.
+						{{ end }}
+						{{ $element.publication }}.
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+
+		<!-- Selected Conference Volumes -->
+		<div class="flex flex-col items-center px-6">
+			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
+				Selected Conference Volumes
+			</div>
+		</div>
+		<div class="flex flex-col items-center px-6">
+			<div class="mt-8 sm:mt-10 container max-w-3xl w-full">
+
+				<div class="flex flex-col space-y-3">
+					<!-- Each pub-item -->
+					{{ range $element := sort .Site.Data.selected_conference_volumes "weight" }}
+					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+						<span class="article-metadata li-cite-author">
+							<span class="font-bold">Srinivas Raghavendra</span><!--
+							-->{{ with $element.authors}}<!--
+							-->,
+							<span>{{ $element.authors }}</span>
+							{{ end }}
+						</span>
+						({{ $element.date }}).
+						{{ if $element.link}}
+							<a class="underline" href="{{ $element.link}}" target="blank">
+						{{ $element.title }}</a>.
+						{{ else }}
+							{{ $element.title}}.
+						{{ end }}
+						{{ $element.publication }}.
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
 </section>

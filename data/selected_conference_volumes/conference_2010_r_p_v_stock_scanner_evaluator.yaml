@@ -1,0 +1,17 @@
+---
+title: "Stock Scanner Evaluator for Stocks or Options"
+weight: 200
+authors: "Paraschiv, D., & Vasiliu, L."
+date: "2009"
+# Publication name and optional abbreviated publication name.
+publication: " IEEE Symposium on Computational Intelligence and Financial Engineering"
+# link:
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---

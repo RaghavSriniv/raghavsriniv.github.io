@@ -1,0 +1,19 @@
+---
+title: "Algorithmic trading on an artificial stock market"
+weight: 400
+authors: "Paraschiv, D., & Vasiliu, L."
+date: "2008"
+# Publication name and optional abbreviated publication name.
+publication: "In C. Badica, G. Mangioni, V. Carchiolo & D.D. Burdescu (Eds.), Intelligent Distributed Computing, Systems and Applications (pp. 281–286). Springer"
+link: "https://link.springer.com/book/10.1007/978-3-540-85257-5"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+
+draft: false
+---
+
+   
