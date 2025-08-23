@@ -7,7 +7,7 @@ main:
   - name: Bio
     url: /
     weight: 100
-  - name: Publications
+  - name: Research
     url: /#publications
     weight: 200
   # - name: Talks
@@ -18,10 +18,10 @@ main:
   #   weight: 13
   # - name: Teaching
   #   url: course_resources/
-  #   weight: 400
+  #   weight: 300
   - name: EconDyn Lab
     url: econdyn/
-    weight: 500
-  # - name: Practice & Public Engagement
+    weight: 400
+  # - name: Public Engagement
   #   url: projects/
-  #   weight: 400
+  #   weight: 500
