@@ -1,7 +1,9 @@
 ---
 title: "A nonsmooth extension of Samuelson’s multiplier-accelerator model"
 weight: 105
-authors: "Piiroinen, P.T."
+authors: 
+  - piiroinen
+  - admin
 date: "2019"
 publication: "International Journal of Bifurcation and Chaos, 29(10)"
 link: "https://www.worldscientific.com/doi/abs/10.1142/S0218127419300271"

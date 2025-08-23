@@ -1,0 +1,12 @@
+<span class="article-metadata li-cite-author">
+		{{ $element := . }}
+		{{ range $i, $slug := $element.authors }}
+		  {{- $authorPage := site.GetPage (printf "/authors/%s" $slug) -}}
+		  {{ if $authorPage }}
+		  {{- if gt $i 0 -}}, {{- end -}}
+		    <span {{ if $authorPage.Params.highlight_name }}class="font-bold"{{ end }}>
+		    	{{ $authorPage.Title -}}
+		    </span>
+		  {{- end -}}
+		{{ end }}
+	</span> 

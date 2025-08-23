@@ -1,7 +1,9 @@
 ---
 title: "A macroeconomic developmental perspective on Indian economic growth"
 weight: 101
-authors: "Dasgupta, Z."
+authors:
+  - admin
+  - zico
 date: "2023"
 publication: "Development Macroeconomics Bulletin, 3(1), 47–61"
 link: "https://www.tandfonline.com/doi/full/10.1080/13545701.2022.2044497"

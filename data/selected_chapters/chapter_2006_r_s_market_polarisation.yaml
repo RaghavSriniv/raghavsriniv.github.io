@@ -1,7 +1,9 @@
 ---
 title: "Market polarisation in presence of individual choice volatility"
 weight: 500
-authors: "Sinha, S."
+authors: 
+  - sinha
+  - admin
 date: "2006"
 # Publication name and optional abbreviated publication name.
 publication: "In C. Bruun (Ed.), Advances in Artificial Economics: The Economy as a Complex Dynamic System (pp. 177–190). Springer"

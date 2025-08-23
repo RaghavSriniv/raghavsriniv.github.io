@@ -1,7 +1,9 @@
 ---
 title: "Wage-and profit-led regimes under modern finance: an exploration"
 weight: 109
-authors: "Bhaduri, A."
+authors: 
+  - bhaduri
+  - admin
 date: "2017"
 # Publication name and optional abbreviated publication name.
 publication: "Review of Keynesian Economics, 5(3), 426–438"

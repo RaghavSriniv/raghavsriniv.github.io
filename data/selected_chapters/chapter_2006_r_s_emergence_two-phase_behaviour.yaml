@@ -1,7 +1,9 @@
 ---
 title: "Emergence of two-phase behaviour in markets through interaction and learning in agents with bounded rationality"
 weight: 600
-authors: "Sinha, S."
+authors: 
+  - sinha
+  - admin
 date: "2006"
 # Publication name and optional abbreviated publication name.
 publication: "In H. Takayasu (Ed.), Practical Fruits of Econophysics (pp. 200–204). Springer"

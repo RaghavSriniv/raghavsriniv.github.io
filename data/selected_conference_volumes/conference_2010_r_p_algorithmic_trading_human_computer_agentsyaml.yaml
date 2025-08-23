@@ -1,7 +1,9 @@
 ---
 title: "Algorithmic trading with human agents and computer agents in a virtual stock & futures market"
 weight: 100
-authors: "Paraschiv, D."
+authors: 
+  - paraschiv
+  - admin
 date: "2010"
 # Publication name and optional abbreviated publication name.
 publication: "Proceedings of the International Conference on Computational and Financial Econometrics"

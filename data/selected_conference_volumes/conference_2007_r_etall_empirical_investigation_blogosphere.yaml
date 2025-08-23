@@ -1,7 +1,11 @@
 ---
 title: "An Empirical Investigation of networks in the Blogosphere"
 weight: 300
-authors: "Bojars, U., Harth, A. & Kinsella, S."
+authors: 
+  - admin
+  - bojars
+  - harth
+  - kinsella
 date: "2007"
 # Publication name and optional abbreviated publication name.
 publication: "Proceedings of the International Conferences on Weblogs and Social Media"

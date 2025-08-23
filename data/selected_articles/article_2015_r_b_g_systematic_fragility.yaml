@@ -1,7 +1,10 @@
 ---
 title: "On the systemic fragility of finance‐led growth"
 weight: 111
-authors: "Bhaduri, A., Guttal, V."
+authors: 
+  - bhaduri
+  - admin
+  - guttal 
 date: "2015"
 # Publication name and optional abbreviated publication name.
 publication: "Metroeconomica, 66(1), 158–186"

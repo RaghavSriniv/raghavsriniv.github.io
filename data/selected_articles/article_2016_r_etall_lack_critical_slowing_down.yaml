@@ -1,7 +1,11 @@
 ---
 title: "Lack of critical slowing down suggests that financial meltdowns are not critical transitions, yet rising variability could signal systemic risk"
 weight: 110
-authors: "Guttal, V., Goel, N., Hoarau, Q."
+authors: 
+  - guttal
+  - admin
+  - goel 
+  - hoaray 
 date: "2016"
 # Publication name and optional abbreviated publication name.
 publication: "PloS one, 11(1): e0144198"

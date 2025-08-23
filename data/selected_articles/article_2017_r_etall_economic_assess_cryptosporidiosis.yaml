@@ -1,7 +1,14 @@
 ---
 title: "Economic assessment of waterborne outbreak of cryptosporidiosis"
 weight: 107
-authors: "Chyzheuskaya, A., Cormican, M., O’Donovan, D., Prendergast, M., O’Donoghue, C., Morris, D."
+authors: 
+  - chyzheuskaya
+  - cormican 
+  - admin 
+  - odonovan
+  - prendergast
+  - odonoghue
+  - morris
 date: "2017"
 # Publication name and optional abbreviated publication name.
 publication: "Emerging Infectious Diseases, 23(10), 1650-1656"

@@ -1,7 +1,10 @@
 ---
 title: "Stock Scanner Evaluator for Stocks or Options"
 weight: 200
-authors: "Paraschiv, D., & Vasiliu, L."
+authors: 
+  - paraschiv
+  - admin 
+  - vasiliu
 date: "2009"
 # Publication name and optional abbreviated publication name.
 publication: " IEEE Symposium on Computational Intelligence and Financial Engineering"

@@ -1,8 +1,10 @@
 ---
-title: "An Introduction to Economic dynamics: Modelling, Analysis and Simulation"
-weight: 1
+title: "An Introduction to Economic dynamics: Modelling, Analysis and Simulation "
+weight: 100
 # list of authors other than Srinivas Raghavendra
-authors: "Piiroinen, P.T."
+authors:
+  - admin
+  - piiroinen
 date: "2023"
 publication: "Routledge"
 link: "https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893"

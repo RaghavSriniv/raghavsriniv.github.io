@@ -2,7 +2,9 @@
 title: "Financial Growth and Crash under Shadow Banking"
 weight: 100
 # list of authors other than Srinivas Raghavendra
-authors: "Bhaduri, A."
+authors: 
+  - bhaduri
+  - admin
 date: "2024"
 publication: "Review of Political Economy, 36:3, 1156–1173"
 link: "https://www.tandfonline.com/doi/full/10.1080/09538259.2022.2099667"

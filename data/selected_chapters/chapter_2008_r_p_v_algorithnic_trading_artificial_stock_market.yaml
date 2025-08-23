@@ -1,7 +1,10 @@
 ---
 title: "Algorithmic trading on an artificial stock market"
 weight: 400
-authors: "Paraschiv, D., & Vasiliu, L."
+authors: 
+  - paraschiv
+  - admin 
+  - vasiliu
 date: "2008"
 # Publication name and optional abbreviated publication name.
 publication: "In C. Badica, G. Mangioni, V. Carchiolo & D.D. Burdescu (Eds.), Intelligent Distributed Computing, Systems and Applications (pp. 281–286). Springer"

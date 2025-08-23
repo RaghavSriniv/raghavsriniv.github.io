@@ -1,7 +1,10 @@
 ---
 title: "The macroeconomic loss due to violence against women: The case of Vietnam"
 weight: 108
-authors: "Duvvury, N., Ashe, S."
+authors: 
+  - admin
+  - duvvury
+  - ashe 
 date: "2017"
 # Publication name and optional abbreviated publication name.
 publication: "Feminist Economics, 23(4), 62–89"

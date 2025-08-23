@@ -7,6 +7,7 @@
 			</div>
 		</div>
 
+
 		<!-- Books -->
 		<div class="flex flex-col items-center px-6">
 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
@@ -16,17 +17,14 @@
 		<div class="flex flex-col items-center px-6">
 			<div class="mt-8 sm:mt-10 container max-w-3xl w-full">
 
+				
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 					{{ range $element := sort .Site.Data.books "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-						<span class="article-metadata li-cite-author">
-							<span class="font-bold">Srinivas Raghavendra</span><!--
-							-->{{ with $element.authors}}<!--
-							-->,
-							<span>{{ $element.authors }}</span>
-							{{ end }}
-						</span>
+						
+						{{ partial "list_authors.html" . }}
+						
 						({{ $element.date }}).
 						{{ if $element.link}}
 							<a class="underline" href="{{ $element.link}}" target="blank">
@@ -54,13 +52,7 @@
 					<!-- Each pub-item -->
 					{{ range $element := sort .Site.Data.selected_articles "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-						<span class="article-metadata li-cite-author">
-							<span class="font-bold">Srinivas Raghavendra</span><!--
-							-->{{ with $element.authors}}<!--
-							-->,
-							<span>{{ $element.authors }}</span>
-							{{ end }}
-						</span>
+						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
 						{{ if $element.link}}
 							<a class="underline" href="{{ $element.link}}" target="blank">
@@ -88,13 +80,7 @@
 					<!-- Each pub-item -->
 					{{ range $element := sort .Site.Data.selected_chapters "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-						<span class="article-metadata li-cite-author">
-							<span class="font-bold">Srinivas Raghavendra</span><!--
-							-->{{ with $element.authors}}<!--
-							-->,
-							<span>{{ $element.authors }}</span>
-							{{ end }}
-						</span>
+						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
 						{{ if $element.link}}
 							<a class="underline" href="{{ $element.link}}" target="blank">
@@ -122,13 +108,8 @@
 					<!-- Each pub-item -->
 					{{ range $element := sort .Site.Data.selected_conference_volumes "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-						<span class="article-metadata li-cite-author">
-							<span class="font-bold">Srinivas Raghavendra</span><!--
-							-->{{ with $element.authors}}<!--
-							-->,
-							<span>{{ $element.authors }}</span>
-							{{ end }}
-						</span>
+						{{ partial "list_authors.html" . }}
+
 						({{ $element.date }}).
 						{{ if $element.link}}
 							<a class="underline" href="{{ $element.link}}" target="blank">

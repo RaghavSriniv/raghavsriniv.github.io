@@ -1,7 +1,9 @@
 ---
 title: "Phase Transition and Pattern Formation in a model of Collective Choice Dynamics"
 weight: 400
-authors: "Sinha, S."
+authors: 
+  - admin
+  - sinha
 date: "2004"
 # Publication name and optional abbreviated publication name.
 publication: "Santa Fe Institute paper, No: 04−09−028"
