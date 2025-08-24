@@ -22,6 +22,6 @@ main:
   - name: EconDyn Lab
     url: econdyn/
     weight: 400
-  # - name: Public Engagement
-  #   url: projects/
-  #   weight: 500
+  - name: Public Engagement
+    url: pub_engagement/
+    weight: 500
