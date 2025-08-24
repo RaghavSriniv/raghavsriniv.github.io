@@ -13,10 +13,9 @@ draft: false
 
 <br>
 
-<h3>In the media</h3>
+### In the media
 
 <br>
-
 
 
 - **Raghavendra, S.** (2025, August 06). [India’s export-led growth model.](https://www.hindutamil.in/news/opinion/columns/1359009-trumps-trade-war-and-stock-markets-fury-explained.html) _Frontline_.
@@ -75,3 +74,37 @@ draft: false
 
 
 - **Raghavendra, S.** (2019, May 16). [Has economics lost its ability to relate to real world?](https://www.rte.ie/brainstorm/2019/0516/1049834-has-economics-lost-its-ability-to-relate-to-the-real-world/) _RTE Brainstorm_.
+<br>
+
+
+- **Raghavendra, S.** & Duvvury, N. (2017, August 22). [Dismissing Domestic Violence as a ‘Private Matter’ Ignores Adverse Impact to the Economy](https://thewire.in/gender/domestic-violence-women-private-matter-economy) _The Wire.in_.
+<br>
+
+
+- **Raghavendra, S.** (2013, May 20). [Economists and Austerity Errors](https://www.irishtimes.com/opinion/letters/economists-and-austerity-errors-1.1397745) _Irish Times_.
+
+
+
+<br>
+
+### Public Talks
+
+<br>
+
+
+- **Raghavendra, S.** (2025, May 2) "Growth, Distribution, and Social Reproduction: The case of Indian Economy". Madras Institute of Development Studies, Chennai.
+
+
+- **Raghavendra, S.** (2025, February 6) "Thinking about self and talking about the economy: The challenges and Joys of teaching Macroeconomics" Azim Premji University, Bangalore.
+
+
+- **Raghavendra, S.** (2025, January 27) "Economic growth and Social reproduction". Centenary Lecture, Loyola College, Chennai.
+
+
+- **Raghavendra, S.** (2024, November 26) "Fallacy of Composition: A fundamental challenge in understanding Macroeconomcis". Kendriya Vidylaya, Mysore.
+
+- **Raghavendra, S.** (2024, March 17). "Inclusive growth and unequal development". Mysore Open Forum, Mysore.
+
+
+<br>
+
