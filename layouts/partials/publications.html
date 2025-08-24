@@ -1,4 +1,4 @@
-
+{{ $publications := .Site.Data.publications}}
 <section id="publications" class="relative hbb-section blox-collection" style="padding: 6rem 0 6rem 0;">
 	<div class="home-section-bg"></div>
 		<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
@@ -20,7 +20,7 @@
 				
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
-					{{ range $element := sort .Site.Data.books "weight" }}
+					{{ range $element := sort $publications.books "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
 						
 						{{ partial "list_authors.html" . }}
@@ -50,7 +50,7 @@
 
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
-					{{ range $element := sort .Site.Data.selected_articles "weight" }}
+					{{ range $element := sort $publications.selected_articles "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
@@ -78,7 +78,7 @@
 
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
-					{{ range $element := sort .Site.Data.selected_chapters "weight" }}
+					{{ range $element := sort $publications.selected_chapters "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
@@ -106,7 +106,7 @@
 
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
-					{{ range $element := sort .Site.Data.selected_conference_volumes "weight" }}
+					{{ range $element := sort $publications.selected_conference_volumes "weight" }}
 					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 
