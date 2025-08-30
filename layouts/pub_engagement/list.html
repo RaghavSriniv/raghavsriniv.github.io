@@ -1,0 +1,64 @@
+{{- define "main" -}}
+<div class="mx-auto flex max-w-screen-xl">
+  {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
+  {{ partial "components/toc.html" . }}
+  <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      <div class="mb-1">
+        {{ if not .Params.breadcrumb }}
+        <!-- No breadcrumb -->
+        {{ else }}
+        {{ partial "components/breadcrumb.html" . }}
+        {{ end }}
+      </div>
+
+      <div class="content text-base">
+        <h1>{{ .Title }} </h1>
+        {{ .Content }}
+        
+        {{ $pagePath := .Path }}
+
+        <!-- The order is decided by the order of the list of subfolder in _index.md -->
+        {{ range .Params.subfolders }}
+          {{ $subPathIn := site.GetPage "section" (printf "%s/%s" $pagePath .)}}
+          <h3>{{ $subPathIn.Title }}</h3>
+
+          <div class="flex flex-col items-center px-6">
+            <div class="mt-8 sm:mt-10 container max-w-3xl w-full">
+              <div class="flex flex-col space-y-3">
+              {{ range $subPathIn.RegularPages.ByWeight }}
+                 <div class="pub-list-item view-citation " style="margin-bottom: 1rem;"> 
+                    {{- partial "list_authors.html" .Params -}}
+                    {{ if eq $subPathIn.Params.Publication_type "article" }}
+                      ({{ time.Format "Jan 2006" .Date }}).
+                    {{ end }}
+                    {{ if .Params.Link}}
+                      <a class="underline" href="{{ .Params.Link}}" target="blank">
+                      {{ .Title }}.</a>
+                    {{ else }}
+                      <span class="font-semibold">{{ .Title }}.</span> 
+                    {{ end }}
+                    {{ if eq $subPathIn.Params.Publication_type "talk" }}
+                      {{ .Params.Institution }}, {{ .Params.Place }} ({{ time.Format "Jan 2006" .Date }}).
+                    {{ end }}
+                    {{ with .Params.Media }}
+                      <span class="italic"> {{ . }}. </span>
+                    {{ end }}
+                    
+                    
+                  </div>
+              {{ end }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+
+      {{ partial "components/last-edited.html" . }}
+      {{ .Scratch.Set "invert_pager" true }}
+      <!-- {{ partial "components/next-in-series.html" . }} -->
+      {{ partial "comments.html" . }}
+    </main>
+  </article>
+</div>
+{{- end -}}

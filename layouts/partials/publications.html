@@ -16,8 +16,6 @@
 		</div>
 		<div class="flex flex-col items-center px-6">
 			<div class="mt-8 sm:mt-10 container max-w-3xl w-full">
-
-				
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 					{{ range $element := sort $publications.books "weight" }}
@@ -28,7 +26,7 @@
 						({{ $element.date }}).
 						{{ if $element.link}}
 							<a class="underline" href="{{ $element.link}}" target="blank">
-						{{ $element.title }}</a>.
+							{{ $element.title }}</a>.
 						{{ else }}
 							{{ $element.title}}.
 						{{ end }}
