@@ -61,6 +61,8 @@ _Simulate, Experiment, and Repeat_ 😹
 8. [Endogenous growth dynamics](https://adityam2004.shinyapps.io/Model_8/)
 9. [Business cycle: Multiplier-Accelerator dynamics](https://aditya04.shinyapps.io/Model_9/)
 10. [Stock-Flow dynamics: A simple model of a macroeconomy](https://aditya04.shinyapps.io/Model_10/)
+11. [A model of portfolio choice with endogenous money](https://econdynlab.shinyapps.io/Model_11_Shiny/)
+12. [Stochastic BMW model](https://econdynlab.shinyapps.io/Model_12_Shiny/)
 
 <br>
  
