@@ -63,6 +63,7 @@ _Simulate, Experiment, and Repeat_ 😹
 10. [Stock-Flow dynamics: A simple model of a macroeconomy](https://aditya04.shinyapps.io/Model_10/)
 11. [A model of portfolio choice with endogenous money](https://econdynlab.shinyapps.io/Model_11_Shiny/)
 12. [Stochastic BMW model](https://econdynlab.shinyapps.io/Model_12_Shiny/)
+13. [A model of disequilibrium dynamics (DIS) in the product market](https://econdynlab.shinyapps.io/Model_13_Shiny/)
 
 <br>
  
