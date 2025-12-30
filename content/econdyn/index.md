@@ -49,7 +49,7 @@ _Simulate, Experiment, and Repeat_ 😹
 
 <br>
 
-### Models
+### Dynamic Models for Simulation
 
 1. [Cobweb model](https://raghavsrinivas.shinyapps.io/Model_1/)
 2. [Cobweb model with Expectations](https://raghavsrinivas.shinyapps.io/Model_2/)
@@ -64,6 +64,13 @@ _Simulate, Experiment, and Repeat_ 😹
 11. [A model of portfolio choice with endogenous money](https://econdynlab.shinyapps.io/Model_11_Shiny/)
 12. [Stochastic BMW model](https://econdynlab.shinyapps.io/Model_12_Shiny/)
 13. [A model of disequilibrium dynamics (DIS) in the product market](https://econdynlab.shinyapps.io/Model_13_Shiny/)
+
+<br>
+
+### Time Series Notes by Kedar Kulkarni
+
+1. [Introduction to Time Series Analysis - Lecture Notes]({{< pdf "introduction.pdf" >}})
+2. [Applied Time Series Analysis with Stata]({{< pdf "applied.pdf">}})
 
 <br>
  
