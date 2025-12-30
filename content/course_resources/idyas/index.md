@@ -1,6 +1,6 @@
 ---
 title: Introduction to Dynamic Analysis and Simulation (IDyAS)
-summary: The course introduces methods of dynamic analysis in Economics using some of the basic models in both Microeconomics and Macroeconomics. Click here to get the feel for dynamics[link to EconDyn Lab]!
+summary: " "
 date: 2025-08-08
 type: docs
 math: false
@@ -12,6 +12,10 @@ image:
   caption: "Cover image of An Introduction to Economic Dynamics Modelling Analysis and Simulation by Raghavendra and Piiroinen"
 draft: false
 ---
+
+The course introduces methods of dynamic analysis in Economics using some of the basic models in both Microeconomics and Macroeconomics. 
+
+Course syllabus [here]({{< pdf "idyas_syllabus.pdf" >}}).
 
 ## Lecture Notes
 
