@@ -1,6 +1,6 @@
 ---
 title: Macroeconomics of Stocks and Flows
-summary: Here you'll find all links to all the resources for the course!
+summary: " "
 date: 2025-08-08
 type: docs
 math: false
