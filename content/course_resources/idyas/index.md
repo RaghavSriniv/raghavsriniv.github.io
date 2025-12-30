@@ -1,5 +1,5 @@
 ---
-title: Introduction to Dynamic Analysis and Simulation (IDyAS)
+title: Introduction to Dynamic Analysis and Simulation (IDyAS - BA Econ) 
 summary: " "
 date: 2025-08-08
 type: docs

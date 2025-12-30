@@ -1,7 +1,7 @@
 ---
-title: Macroeconomics of Development
+title: Macroeconomics of Development (MA Econ)
 summary: " "
-date: 2025-07-08
+date: 2023-07-08
 type: docs
 math: false
 image:

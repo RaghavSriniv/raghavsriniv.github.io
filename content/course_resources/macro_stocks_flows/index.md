@@ -1,5 +1,5 @@
 ---
-title: Macroeconomics of Stocks and Flows
+title: Macroeconomics of Stocks and Flows (MA Econ)
 summary: " "
 date: 2025-08-08
 type: docs
