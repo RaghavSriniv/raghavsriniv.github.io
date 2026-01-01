@@ -1,0 +1,38 @@
+Landing Page:
+
+## About Me section
+written info: /content/_index.md
+picture: /content/authors/admin/avatar.png
+	to change: upload new picture and rename it "avatar". If it's not working, check the file type. Convert to png. It might not work with other file type.
+layout: /layouts/partials/landing_page.html
+
+## Publications
+content: /data/publications
+	to update: create new .yaml in the folder of the section you want. If a book, under /data/publications/books. Use existing file as template (copy and change the information needed).
+layout: /layouts/partials/landing_page.html
+and /layouts/partials/publications.html
+
+
+## Teaching
+folder: /content/course_resources
+add new course: create new folder. Use existing ones as template
+delete course: open .md of the course >> change draft to true. Don't delete a course in case you want to show it later
+layout: /content/course_resources/_index.md parameter type tells the folder in /layouts/partials that the .html file is.
+	list.html: the list page
+	Current list page layout: 
+		/layouts/teaching/list.html
+		/layouts/functions/parse_block_v2 (this is in the _vendor folder for now - Dec 30, 2025)
+		/layouts/partials/blox/collection (the last part is determined by the parameters of the _index.md file)
+		/layouts/partials/views/article-grid.html (determined by the parameters of the _index.md file in design >> view. Then the way is "functions/parse_block_v2" >> "partials/collection" >> "functions/render_view" >> "/partials/views/article-grid.html")
+	single.html: the default of each individual page. It can be overridden by the type in the .md file of each page.
+	Current layout (Dec 30,2025): /layouts/partials/docs_layouts.html (from /layouts/docs/single.html and )
+
+
+
+
+
+
+
+
+
+

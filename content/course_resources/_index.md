@@ -1,5 +1,5 @@
 ---
-title: Course Resources
+title: Teaching Philosophy and Courses Syllabi
 summary: My courses
 type: teaching
 
@@ -13,8 +13,8 @@ sections:
   - block: collection
     id: course_resources
     content:
-      title: Course Resources
-      text: 
+      title: Teaching Philosophy and List of Courses
+      text:
       filters:
         folders:
           - course_resources
