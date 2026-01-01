@@ -1,7 +1,7 @@
 ---
 title: Course Resources
 summary: My courses
-type: landing
+type: teaching
 
 cascade:
   - _target:
@@ -19,6 +19,6 @@ sections:
         folders:
           - course_resources
     design:
-      view: article-grid
-      columns: 2
+      view: article-grid-teach
+      columns: 1
 ---
