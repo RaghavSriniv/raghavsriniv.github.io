@@ -24,7 +24,7 @@ highlight_name: true
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Azim Premji University | University of Galway
+  - name: University of Galway, Ireland
     url: https://azimpremjiuniversity.edu.in/people/srinivasan-raghavendra
 
 # Social network links
