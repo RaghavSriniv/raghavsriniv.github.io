@@ -19,12 +19,12 @@ main:
   - name: Teaching
     url: course_resources/
     weight: 300
-  # - name: Blog
-  #   url: post/
-  #   weigth: 1
   - name: EconDyn Lab
     url: econdyn/
     weight: 400
   - name: Public Engagement
     url: pub_engagement/
     weight: 500
+  - name: Blog
+    url: post/
+    weigth: 600
