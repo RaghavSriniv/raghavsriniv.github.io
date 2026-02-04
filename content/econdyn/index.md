@@ -77,9 +77,8 @@ _Simulate, Experiment, and Repeat_ 😹
 ### Econdyn Lab Team
 
 - Srinivas Raghavendra,
-  Azim Premji University, India.
+  University of Galway, Ireland.
 - Aditya Mahadevan, BA Economics, Azim Premji University, India.
-- Petri Piiroinen,
-  Chalmers University, Sweden.
+- Petri T. Piiroinen, Dynamics, Mechanics and Maritime Sciences, Chalmers University of Technology, Sweden
 - Zico Dasgupta, Azim Premji University, India
 - Kedar Kulkarni, Azim Premji University, India
