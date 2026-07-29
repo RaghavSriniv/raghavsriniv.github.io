@@ -13,7 +13,7 @@ draft: false
 
 ### Welcome!
 
-_We live in time, yet in economics classrooms, time stands still!_ 😸
+_Economics is the study of dynamic processes- growth, crises, transformation - yet pedagogy freezes them into static snapshots!_ 
 <br>
 <br>
 
@@ -67,7 +67,7 @@ _Simulate, Experiment, and Repeat_ 😹
 
 <br>
 
-### Time Series Notes by Kedar Kulkarni
+### Time Series 
 
 1. [Introduction to Time Series Analysis - Lecture Notes]({{< pdf "introduction.pdf" >}})
 2. [Applied Time Series Analysis with Stata]({{< pdf "applied.pdf">}})
@@ -76,8 +76,7 @@ _Simulate, Experiment, and Repeat_ 😹
  
 ### Econdyn Lab Team
 
-- Srinivas Raghavendra,
-  University of Galway, Ireland.
+- Srinivas Raghavendra, University of Galway, Ireland.
 - Aditya Mahadevan, BA Economics, Azim Premji University, India.
 - Petri T. Piiroinen, Dynamics, Mechanics and Maritime Sciences, Chalmers University of Technology, Sweden
 - Zico Dasgupta, Azim Premji University, India
