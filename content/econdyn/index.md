@@ -13,7 +13,7 @@ draft: false
 
 ### Welcome!
 
-_Economics is the study of dynamic processes- growth, crises, transformation - yet pedagogy freezes them into static snapshots!_ 
+Economics is the study of dynamic processes- growth, crises, transformation - yet pedagogy freezes them into static snapshots! 
 <br>
 <br>
 
