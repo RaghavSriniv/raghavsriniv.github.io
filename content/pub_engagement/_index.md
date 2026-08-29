@@ -11,5 +11,6 @@ params:
   subfolders:
     - media
     - talks_in_pub
+    - podcast
 draft: false
 ---
