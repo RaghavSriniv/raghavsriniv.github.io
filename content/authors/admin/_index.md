@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Srinivas Raghavendran
+title: Srinivas Raghavendra
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
@@ -25,7 +25,7 @@ highlight_name: true
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: University of Galway, Ireland
-    url: https://azimpremjiuniversity.edu.in/people/srinivasan-raghavendra
+    url: https://www.universityofgalway.ie/our-research/people/business-and-economics/sraghav/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.

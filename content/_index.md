@@ -30,6 +30,23 @@ sections:
           size: cover
           position: center
           parallax: false
+  - block: markdown
+    content:
+      title: 'Public Engagement'
+      subtitle: 'Writing on macroeconomics for a broader audience'
+      text: |-
+        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish newspapers to the *Making Sense of Macroeconomics* podcast.
+
+        - [India's Economic Problems aren't About Currency or Gold: It's About AI](https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai) — *The India Forum*, June 2026
+        - [To stem rupee's slide, India should first fix its fragile domestic economy](https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy) — *Scroll.in*, June 2026
+        - [India's export-led growth model](https://frontline.thehindu.com/economy/india-export-growth-structural-inequality-dual-economy/article69868430.ece) — *Frontline*, June 2025
+        - [Explained: How US bond market fury stopped Trump's trade war](https://scroll.in/article/1081454/how-us-bond-market-fury-stopped-trumps-trade-war) — *Scroll.in*, April 2025
+        - [On the fall in household savings](https://www.thehindu.com/business/Economy/on-the-fall-in-household-savings/article68092017.ece) — *The Hindu*, April 2024
+        - [Investing in the care economy](https://www.thehindubusinessline.com/opinion/investing-in-the-care-economy/article34238269.ece) — *The Hindu Business Line*, April 2021
+
+        [See all public engagement →](/pub_engagement/)
+    design:
+      columns: '1'
   # - block: markdown
   #   content:
   #     title: 'My Research'

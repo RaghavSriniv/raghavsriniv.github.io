@@ -1,0 +1,208 @@
+diff --git a/config/_default/menus.yaml b/config/_default/menus.yaml
+index a52c998..9d5cdda 100644
+--- a/config/_default/menus.yaml
++++ b/config/_default/menus.yaml
+@@ -10,12 +10,6 @@ main:
+   - name: Research
+     url: /#publications
+     weight: 200
+-  # - name: Talks
+-  #   url: /#talks
+-  #   weight: 12
+-  # - name: News
+-  #   url: /#news
+-  #   weight: 13
+   - name: Teaching
+     url: course_resources/
+     weight: 300
+@@ -25,6 +19,9 @@ main:
+   - name: Public Engagement
+     url: pub_engagement/
+     weight: 500
++  - name: Talks
++    url: talks/
++    weight: 550
+   - name: Blog
+     url: post/
+-    weigth: 600
++    weight: 600
+diff --git a/config/_default/params.yaml b/config/_default/params.yaml
+index 74b9683..fbc9b0f 100644
+--- a/config/_default/params.yaml
++++ b/config/_default/params.yaml
+@@ -40,7 +40,7 @@ header:
+ # Site footer
+ footer:
+   copyright:
+-    notice: '© {year} Me. This work is licensed under {license}'
++    notice: '© {year} Srinivas Raghavendra. This work is licensed under {license}'
+     license:
+       enable: true
+       allow_derivatives: false
+diff --git a/content/_index.md b/content/_index.md
+index 72cbf74..c8e89d0 100644
+--- a/content/_index.md
++++ b/content/_index.md
+@@ -30,6 +30,23 @@ sections:
+           size: cover
+           position: center
+           parallax: false
++  - block: markdown
++    content:
++      title: 'Public Engagement'
++      subtitle: 'Writing on macroeconomics for a broader audience'
++      text: |-
++        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish newspapers to the *Making Sense of Macroeconomics* podcast.
++
++        - [India's Economic Problems aren't About Currency or Gold: It's About AI](https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai) — *The India Forum*, June 2026
++        - [To stem rupee's slide, India should first fix its fragile domestic economy](https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy) — *Scroll.in*, June 2026
++        - [India's export-led growth model](https://frontline.thehindu.com/economy/india-export-growth-structural-inequality-dual-economy/article69868430.ece) — *Frontline*, June 2025
++        - [Explained: How US bond market fury stopped Trump's trade war](https://scroll.in/article/1081454/how-us-bond-market-fury-stopped-trumps-trade-war) — *Scroll.in*, April 2025
++        - [On the fall in household savings](https://www.thehindu.com/business/Economy/on-the-fall-in-household-savings/article68092017.ece) — *The Hindu*, April 2024
++        - [Investing in the care economy](https://www.thehindubusinessline.com/opinion/investing-in-the-care-economy/article34238269.ece) — *The Hindu Business Line*, April 2021
++
++        [See all public engagement →](/pub_engagement/)
++    design:
++      columns: '1'
+   # - block: markdown
+   #   content:
+   #     title: 'My Research'
+diff --git a/content/authors/admin/_index.md b/content/authors/admin/_index.md
+index 9dc1a99..c48953c 100644
+--- a/content/authors/admin/_index.md
++++ b/content/authors/admin/_index.md
+@@ -1,6 +1,6 @@
+ ---
+ # Display name
+-title: Srinivas Raghavendran
++title: Srinivas Raghavendra
+ 
+ # Name pronunciation (optional)
+ # name_pronunciation: Chien Shiung Wu
+@@ -25,7 +25,7 @@ highlight_name: true
+ # Organizations/Affiliations to display in Biography blox
+ organizations:
+   - name: University of Galway, Ireland
+-    url: https://azimpremjiuniversity.edu.in/people/srinivasan-raghavendra
++    url: https://www.universityofgalway.ie/our-research/people/business-and-economics/sraghav/
+ 
+ # Social network links
+ # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+diff --git a/content/pub_engagement/media/2026_india_economic_problems_ai_india_forum.md b/content/pub_engagement/media/2026_india_economic_problems_ai_india_forum.md
+new file mode 100644
+index 0000000..487e608
+--- /dev/null
++++ b/content/pub_engagement/media/2026_india_economic_problems_ai_india_forum.md
+@@ -0,0 +1,10 @@
++---
++# Display name
++title: "India's Economic Problems aren't About Currency or Gold: It's About AI"
++weight: 25
++date: 2026-06-11
++authors: [admin]
++media: "The India Forum"
++link: "https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai"
++draft: false
++---
+diff --git a/content/pub_engagement/media/2026_rupee_slide_domestic_economy_scroll.md b/content/pub_engagement/media/2026_rupee_slide_domestic_economy_scroll.md
+new file mode 100644
+index 0000000..1f1790f
+--- /dev/null
++++ b/content/pub_engagement/media/2026_rupee_slide_domestic_economy_scroll.md
+@@ -0,0 +1,10 @@
++---
++# Display name
++title: "To stem rupee's slide, India should first fix its fragile domestic economy"
++weight: 50
++date: 2026-06-07
++authors: [admin]
++media: "Scroll.in"
++link: "https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy"
++draft: false
++---
+diff --git a/data/publications/working_papers/wp_ai_structural_transformation.yaml b/data/publications/working_papers/wp_ai_structural_transformation.yaml
+new file mode 100644
+index 0000000..7640fd3
+--- /dev/null
++++ b/data/publications/working_papers/wp_ai_structural_transformation.yaml
+@@ -0,0 +1,10 @@
++---
++title: "Artificial intelligence and macro-structural transformation"
++weight: 100
++authors:
++  - admin
++date: "2026"
++status: "Under review"
++publication: "Working paper"
++draft: false
++---
+diff --git a/data/publications/working_papers/wp_competitiveness_productivity_distribution.yaml b/data/publications/working_papers/wp_competitiveness_productivity_distribution.yaml
+new file mode 100644
+index 0000000..f8c80c0
+--- /dev/null
++++ b/data/publications/working_papers/wp_competitiveness_productivity_distribution.yaml
+@@ -0,0 +1,10 @@
++---
++title: "Competitiveness, Productivity, and Distribution: Developmental traps revisited"
++weight: 150
++authors:
++  - admin
++date: "2026"
++status: "Working paper"
++publication: "Working paper"
++draft: false
++---
+diff --git a/data/publications/working_papers/wp_ireland_thirlwall_kaldor.yaml b/data/publications/working_papers/wp_ireland_thirlwall_kaldor.yaml
+new file mode 100644
+index 0000000..b9645c0
+--- /dev/null
++++ b/data/publications/working_papers/wp_ireland_thirlwall_kaldor.yaml
+@@ -0,0 +1,10 @@
++---
++title: "Two economies, one balance of payments: productivity and structural growth in Ireland"
++weight: 200
++authors:
++  - admin
++date: "2026"
++status: "Working paper"
++publication: "Working paper"
++draft: false
++---
+diff --git a/layouts/partials/publications.html b/layouts/partials/publications.html
+index 50090a8..6ffbd91 100644
+--- a/layouts/partials/publications.html
++++ b/layouts/partials/publications.html
+@@ -37,6 +37,33 @@
+ 			</div>
+ 		</div>
+ 
++		<!-- Working Papers -->
++		<div class="flex flex-col items-center px-6">
++			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
++				Working Papers
++			</div>
++		</div>
++		<div class="flex flex-col items-center px-6">
++			<div class="mt-8 sm:mt-10 container max-w-3xl w-full">
++				<div class="flex flex-col space-y-3">
++					<!-- Each pub-item -->
++					{{ range $element := sort $publications.working_papers "weight" }}
++					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
++						{{ partial "list_authors.html" . }}
++						({{ $element.date }}).
++						{{ if $element.link}}
++							<a class="underline" href="{{ $element.link}}" target="blank">
++						{{ $element.title }}</a>.
++						{{ else }}
++							{{ $element.title}}.
++						{{ end }}
++						{{ if $element.status }}<span style="font-style: italic;">{{ $element.status }}</span>.{{ end }}
++					</div>
++					{{ end }}
++				</div>
++			</div>
++		</div>
++
+ 		<!-- Selected Journal Articles -->
+ 		<div class="flex flex-col items-center px-6">
+ 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
