@@ -1,0 +1,14 @@
+/* Color the site name (navbar logo + bio heading) with the accent color */
+.navbar-brand {
+  color: rgb(var(--color-primary-600)) !important;
+}
+.dark .navbar-brand {
+  color: rgb(var(--color-primary-300)) !important;
+}
+
+#profile .portrait-title .text-3xl {
+  color: rgb(var(--color-primary-700));
+}
+.dark #profile .portrait-title .text-3xl {
+  color: rgb(var(--color-primary-300));
+}
