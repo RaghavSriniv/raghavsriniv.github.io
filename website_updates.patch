@@ -40,10 +40,10 @@ index 74b9683..fbc9b0f 100644
        enable: true
        allow_derivatives: false
 diff --git a/content/_index.md b/content/_index.md
-index 72cbf74..c8e89d0 100644
+index 72cbf74..0085807 100644
 --- a/content/_index.md
 +++ b/content/_index.md
-@@ -30,6 +30,23 @@ sections:
+@@ -30,6 +30,24 @@ sections:
            size: cover
            position: center
            parallax: false
@@ -52,8 +52,9 @@ index 72cbf74..c8e89d0 100644
 +      title: 'Public Engagement'
 +      subtitle: 'Writing on macroeconomics for a broader audience'
 +      text: |-
-+        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish newspapers to the *Making Sense of Macroeconomics* podcast.
++        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish newspapers to the [*Making Sense of Macroeconomics*](https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn) podcast.
 +
++        - [Making Sense of Macroeconomics](https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn) — podcast series, co-hosted with Chavi Mehta and Wajeeha Hamdani, on *YouTube*
 +        - [India's Economic Problems aren't About Currency or Gold: It's About AI](https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai) — *The India Forum*, June 2026
 +        - [To stem rupee's slide, India should first fix its fragile domestic economy](https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy) — *Scroll.in*, June 2026
 +        - [India's export-led growth model](https://frontline.thehindu.com/economy/india-export-growth-structural-inequality-dual-economy/article69868430.ece) — *Frontline*, June 2025
@@ -88,6 +89,18 @@ index 9dc1a99..c48953c 100644
  
  # Social network links
  # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+diff --git a/content/pub_engagement/_index.md b/content/pub_engagement/_index.md
+index 6860f2b..b8c5000 100644
+--- a/content/pub_engagement/_index.md
++++ b/content/pub_engagement/_index.md
+@@ -9,6 +9,7 @@ tags:
+ params:
+   breadcrumb: false
+   subfolders:
++    - podcast
+     - media
+     - talks_in_pub
+ draft: false
 diff --git a/content/pub_engagement/media/2026_india_economic_problems_ai_india_forum.md b/content/pub_engagement/media/2026_india_economic_problems_ai_india_forum.md
 new file mode 100644
 index 0000000..487e608
@@ -118,6 +131,34 @@ index 0000000..1f1790f
 +authors: [admin]
 +media: "Scroll.in"
 +link: "https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy"
++draft: false
++---
+diff --git a/content/pub_engagement/podcast/_index.md b/content/pub_engagement/podcast/_index.md
+new file mode 100644
+index 0000000..1679a3a
+--- /dev/null
++++ b/content/pub_engagement/podcast/_index.md
+@@ -0,0 +1,7 @@
++---
++headless: true
++title: "Podcast: Making Sense of Macroeconomics"
++weight: 50
++# Neither "article" nor "talk" - renders as a plain linked entry with an italic media label.
++publication_type: "series"
++---
+diff --git a/content/pub_engagement/podcast/making_sense_of_macroeconomics.md b/content/pub_engagement/podcast/making_sense_of_macroeconomics.md
+new file mode 100644
+index 0000000..73f643a
+--- /dev/null
++++ b/content/pub_engagement/podcast/making_sense_of_macroeconomics.md
+@@ -0,0 +1,9 @@
++---
++# Display name
++title: "A podcast series breaking down big macroeconomic ideas into clear, thoughtful conversations, co-hosted with MA Economics students Chavi Mehta and Wajeeha Hamdani"
++weight: 100
++authors: [admin]
++link: "https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn"
++media: "YouTube"
 +draft: false
 +---
 diff --git a/data/publications/working_papers/wp_ai_structural_transformation.yaml b/data/publications/working_papers/wp_ai_structural_transformation.yaml
