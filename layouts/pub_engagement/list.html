@@ -41,8 +41,11 @@
                     {{ if eq $subPathIn.Params.Publication_type "talk" }}
                       {{ .Params.Institution }}, {{ .Params.Place }} ({{ time.Format "Jan 2006" .Date }}).
                     {{ end }}
-                    {{ with .Params.Media }}
+                          {{ with .Params.Media }}
                       <span class="italic"> {{ . }}. </span>
+                    {{ end }}
+                    {{ with .Content }}
+                      <div class="text-sm text-gray-500 dark:text-gray-400 mt-1">{{ . }}</div>
                     {{ end }}
                     
                     
