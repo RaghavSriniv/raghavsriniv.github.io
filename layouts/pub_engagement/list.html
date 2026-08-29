@@ -26,9 +26,11 @@
           <div class="flex flex-col items-center px-6">
             <div class="mt-8 sm:mt-10 container max-w-3xl w-full">
               <div class="flex flex-col space-y-3">
-              {{ range $subPathIn.RegularPages.ByWeight }}
+                            {{ range $subPathIn.RegularPages.ByWeight }}
                  <div class="pub-list-item view-citation " style="margin-bottom: 1rem;"> 
-                    {{- partial "list_authors.html" .Params -}}
+                    {{ if ne $subPathIn.Params.Publication_type "series" }}
+                      {{- partial "list_authors.html" .Params -}}
+                    {{ end }}
                     {{ if eq $subPathIn.Params.Publication_type "article" }}
                       ({{ time.Format "Jan 2006" .Date }}).
                     {{ end }}
