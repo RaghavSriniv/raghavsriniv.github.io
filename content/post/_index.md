@@ -2,4 +2,5 @@
 title: Blog
 view: article-grid
 ---
-Reflections about issues related to macroeconomics, developmental issues relating to the countries of the global sout and the Irish economy,and on pedagogy 
+
+<p class="text-sm italic text-gray-500 dark:text-gray-400">Reflections on macroeconomics, development in the Global South, the Irish economy, and pedagogy.</p>
