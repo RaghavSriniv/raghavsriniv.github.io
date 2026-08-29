@@ -19,9 +19,9 @@ main:
   - name: Public Engagement
     url: pub_engagement/
     weight: 500
-  - name: Talks
-    url: talks/
-    weight: 550
+  #- name: Talks
+#url: talks/
+   # weight: 550
   - name: Blog
     url: post/
     weight: 600
