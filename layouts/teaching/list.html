@@ -3,12 +3,12 @@
   {{ range $index, $block := .Params.sections }}
     {{ if eq $block.block "teaching_bio_layout" }}
       <section class="relative hbb-section">
-        <div class="flex flex-col md:flex-row gap-10 max-w-screen-xl mx-auto px-6 py-8">
-          <nav class="md:w-48 flex-shrink-0 min-w-0">
-            <div class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">Courses</div>
+        <div class="hbb-flex-cols max-w-screen-xl mx-auto px-6 py-8">
+          <nav class="hbb-col-fixed flex-shrink-0 min-w-0">
+            <div class="hbb-heading">Courses</div>
             <ul class="space-y-2">
               {{ range $block.content.links }}
-              <li><a class="underline hover:text-primary-600 dark:hover:text-primary-300" href="{{ .url }}">{{ .name }}</a></li>
+              <li><a class="hbb-course-link" href="{{ .url }}">{{ .name }}</a></li>
               {{ end }}
             </ul>
             {{ with $block.content.book }}
@@ -17,16 +17,16 @@
               {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ end }}
               {{ with $img }}<img src="{{ .RelPermalink }}" alt="{{ $block.content.book.title }}" class="rounded shadow w-full max-w-full h-auto">{{ end }}
               {{ if .link }}</a>{{ end }}
-              <div class="text-sm text-gray-500 dark:text-gray-400 mt-2">{{ .title }}</div>
+              <div class="hbb-caption">{{ .title }}</div>
             </div>
             {{ end }}
           </nav>
-          <div class="prose prose-slate dark:prose-invert max-w-none flex-1 min-w-0">
+          <div class="hbb-flex-main prose prose-slate dark:prose-invert max-w-none">
             {{ $block.content.text | markdownify }}
           </div>
-                              {{ with $block.content.wordcloud }}
-          <aside class="md:w-48 flex-shrink-0 min-w-0">
-            <div class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">{{ .title | default "Student Feedback" }}</div>
+          {{ with $block.content.wordcloud }}
+          <aside class="hbb-col-fixed flex-shrink-0 min-w-0">
+            <div class="hbb-heading">{{ .title | default "Student Feedback" }}</div>
             {{ $img := $.Resources.GetMatch .image }}
             {{ with $img }}<img src="{{ .RelPermalink }}" alt="{{ $block.content.wordcloud.caption }}" class="rounded shadow w-full max-w-full h-auto">{{ end }}
           </aside>

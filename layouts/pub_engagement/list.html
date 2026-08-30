@@ -12,8 +12,8 @@
         {{ end }}
       </div>
 
-      <div class="content text-base flex flex-col md:flex-row gap-10">
-        <div class="flex-1 min-w-0">
+      <div class="content text-base hbb-flex-cols">
+        <div class="hbb-flex-main">
           <h1>{{ .Title }} </h1>
           {{ .Content }}
 
@@ -48,7 +48,7 @@
                         <span class="italic"> {{ . }}. </span>
                       {{ end }}
                       {{ with .Content }}
-                        <div class="text-sm text-gray-500 dark:text-gray-400 mt-1">{{ . }}</div>
+                        <div class="hbb-caption">{{ . }}</div>
                       {{ end }}
                       
                       
@@ -60,9 +60,9 @@
           {{ end }}
         </div>
 
-                {{ with .Params.side_images }}
-        <aside class="md:w-48 flex-shrink-0 min-w-0 not-prose mt-72">
-          <div class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">{{ .title | default "Featured In" }}</div>
+        {{ with .Params.side_images }}
+        <aside class="hbb-col-fixed flex-shrink-0 min-w-0 not-prose hbb-nudge-down">
+          <div class="hbb-heading">{{ .title | default "Featured In" }}</div>
           <div class="flex flex-col gap-6">
             {{ range .images }}
             {{ $item := . }}

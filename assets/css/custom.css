@@ -21,3 +21,94 @@
     line-height: 1.75;
   }
 }
+
+/* Reliable two/three-column layout helpers.
+   (md:flex-row and flex-1 are not present in the prebuilt wc.min.css bundle,
+   so we define the responsive behavior directly here instead.) */
+.hbb-flex-cols {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+@media (min-width: 768px) {
+  .hbb-flex-cols {
+    flex-direction: row;
+  }
+}
+.hbb-flex-main {
+  flex: 1 1 0%;
+  min-width: 0;
+}
+.hbb-nudge-down {
+  margin-top: 20rem;
+}
+
+/* Sidebar heading and caption colors (light/dark) - the Tailwind combo classes
+   for these (dark:text-white, dark:text-gray-400, hover:text-primary-600) are
+   not present in the prebuilt wc.min.css bundle, so defined directly here. */
+.hbb-heading {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: rgb(17, 24, 39);
+}
+.dark .hbb-heading {
+  color: #fff;
+}
+.hbb-caption {
+  font-size: 0.875rem;
+  color: rgb(107, 114, 128);
+  margin-top: 0.5rem;
+}
+.dark .hbb-caption {
+  color: rgb(156, 163, 175);
+}
+.hbb-course-link {
+  text-decoration: underline;
+}
+.hbb-course-link:hover {
+  color: rgb(var(--color-primary-600));
+}
+.dark .hbb-course-link:hover {
+  color: rgb(var(--color-primary-300));
+}
+.hbb-col-fixed {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .hbb-col-fixed {
+    width: 12rem;
+    flex-shrink: 0;
+  }
+}
+
+/* Blog list (date-title-summary view): md:grid-cols-4 / md:col-span-3 /
+   md:items-baseline and the dark:text-zinc-* variants are not present in the
+   prebuilt wc.min.css bundle either, so defined directly here. */
+.hbb-blog-item {
+  display: block;
+}
+@media (min-width: 768px) {
+  .hbb-blog-item {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: baseline;
+  }
+}
+.hbb-blog-content {
+  grid-column: span 1 / span 1;
+}
+@media (min-width: 768px) {
+  .hbb-blog-content {
+    grid-column: span 3 / span 3;
+  }
+}
+.dark .hbb-zinc-100 {
+  color: rgb(244, 244, 245);
+}
+.dark .hbb-zinc-400 {
+  color: rgb(161, 161, 170);
+}
+.dark .hbb-zinc-500 {
+  color: rgb(113, 113, 122);
+}
