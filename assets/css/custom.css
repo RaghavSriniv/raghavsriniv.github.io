@@ -112,3 +112,15 @@
 .dark .hbb-zinc-500 {
   color: rgb(113, 113, 122);
 }
+.hbb-heading-sm {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: rgb(17, 24, 39);
+}
+.dark .hbb-heading-sm {
+  color: #fff;
+}
+.hbb-list-tight {
+  margin-top: 0.5rem;
+}

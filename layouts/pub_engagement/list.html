@@ -25,7 +25,7 @@
             <h3>{{ $subPathIn.Title }}</h3>
 
             <div class="flex flex-col items-center px-6">
-              <div class="mt-8 sm:mt-10 container max-w-3xl w-full">
+              <div class="hbb-list-tight container max-w-3xl w-full">
                 <div class="flex flex-col space-y-3">
                 {{ range $subPathIn.RegularPages.ByWeight }}
                    <div class="pub-list-item view-citation " style="margin-bottom: 1rem;"> 
@@ -62,7 +62,7 @@
 
         {{ with .Params.side_images }}
         <aside class="hbb-col-fixed flex-shrink-0 min-w-0 not-prose hbb-nudge-down">
-          <div class="hbb-heading">{{ .title | default "Featured In" }}</div>
+          <div class="hbb-heading-sm">{{ .title | default "Featured In" }}</div>
           <div class="flex flex-col gap-6">
             {{ range .images }}
             {{ $item := . }}
