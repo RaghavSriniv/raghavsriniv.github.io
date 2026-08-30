@@ -37,7 +37,6 @@ draft: false
 - Research Seminar in Macroeconomics
 
 ---
-
 ### Azim Premji University, India (2023-2025)
 
 #### Undergraduate 
@@ -53,24 +52,26 @@ draft: false
 - [Macroeconomics of Stocks and Flows]({{< pdf "macro_stocks_flows_syllabus.pdf" >}})
 
 ---
-
 ### Madras School of Economics, India (2000-2004)
 
-#### MSc
+#### Postgraduate
 
 - Capital Markets
 - Macroeconomic Theory 1
 - Macroeconomic Theory 2
 - Statistical Methods for Economics
 
+---
 ### Indian Institute of Science, India (Visiting Professor 2013-2017)
 
 - Ways of Doing: Mapping Science-Society Relationship
 
+---
 ### International Labor Organization, Italy (Visiting Professor 2013-2017)
 
 - Economic Development
 
+---
 ### Aalborg University, Denmark (2008-2009)
 
 - Advanced Macroeconomic Theory
