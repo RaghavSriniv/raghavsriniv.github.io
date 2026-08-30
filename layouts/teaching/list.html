@@ -1,9 +1,27 @@
 {{- define "main" -}}
   {{/* Load Hugo Blox */}}
   {{ range $index, $block := .Params.sections }}
-    {{/* Do not show sections intended only for the demo site. */}}
-    {{ if or (not $block.demo) ($block.demo | and (eq (os.Getenv "HUGO_BLOX_DEMO") "true")) }}
-      {{ partial "functions/parse_block_v2" (dict "page" $ "block" $block) }}
+    {{ if eq $block.block "teaching_bio_layout" }}
+      <section class="relative hbb-section">
+        <div class="flex flex-col md:flex-row gap-10 max-w-screen-lg mx-auto px-6 py-8">
+          <nav class="md:w-48 flex-shrink-0">
+            <div class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">Courses</div>
+            <ul class="space-y-2">
+              {{ range $block.content.links }}
+              <li><a class="underline hover:text-primary-600 dark:hover:text-primary-300" href="{{ .url }}">{{ .name }}</a></li>
+              {{ end }}
+            </ul>
+          </nav>
+          <div class="prose prose-slate dark:prose-invert max-w-none">
+            {{ $block.content.text | markdownify }}
+          </div>
+        </div>
+      </section>
+    {{ else }}
+      {{/* Do not show sections intended only for the demo site. */}}
+      {{ if or (not $block.demo) ($block.demo | and (eq (os.Getenv "HUGO_BLOX_DEMO") "true")) }}
+        {{ partial "functions/parse_block_v2" (dict "page" $ "block" $block) }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{- end -}}
