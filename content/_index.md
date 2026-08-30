@@ -34,7 +34,7 @@ sections:
     content:
       title: 'Public Engagement'
       subtitle: 'Writing on macroeconomics for a broader audience'
-            text: |-
+      text: |-
         Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish media to the [*Making Sense of Macroeconomics*](https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn) podcast.
 
         - [Making Sense of Macroeconomics](https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn) — podcast series, co-hosted with Chavi Mehta and Wajeeha Hamdani, on *YouTube*
