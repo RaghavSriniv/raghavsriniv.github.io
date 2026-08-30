@@ -9,8 +9,13 @@ tags:
 params:
   breadcrumb: false
   subfolders:
+    - podcast
     - media
     - talks_in_pub
-    - podcast
+  side_images:
+    title: "Featured In"
+    images:
+      - india_forum.jpg
+      - scroll.jpg
 draft: false
 ---
