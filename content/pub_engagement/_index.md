@@ -13,7 +13,7 @@ params:
     - media
     - talks_in_pub
   side_images:
-    title: "Featured In"
+    title: "Featured Publications"
     images:
       - image: india_forum.jpg
         link: "https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai"
