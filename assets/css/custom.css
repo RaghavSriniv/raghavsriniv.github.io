@@ -12,3 +12,12 @@
 .dark #profile .portrait-title .text-3xl {
   color: rgb(var(--color-primary-300));
 }
+
+/* Match Public Engagement text size to the bio's font size (both use 'prose',
+   but this block defaults to the larger 'prose-xl' on desktop) */
+@media (min-width: 1024px) {
+  .prose.lg\:prose-xl {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+}
