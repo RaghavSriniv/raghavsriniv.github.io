@@ -17,10 +17,13 @@ sections:
           url: recent_courses/
         - name: Past Courses
           url: past_courses/
-      book:
+            book:
         image: "book1_cover.jpg"
         title: "An Introduction to Economic Dynamics: Modelling, Analysis and Simulation (Routledge, 2023)"
         link: "https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893"
+      wordcloud:
+        image: "student_feedbackwooclap_wordcloud.jpg"
+        caption: "Student feedback"
       text: |
         My teaching career spans India, Ireland, and Denmark. ...
       text: |
