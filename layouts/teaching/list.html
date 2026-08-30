@@ -4,13 +4,22 @@
     {{ if eq $block.block "teaching_bio_layout" }}
       <section class="relative hbb-section">
         <div class="flex flex-col md:flex-row gap-10 max-w-screen-lg mx-auto px-6 py-8">
-          <nav class="md:w-48 flex-shrink-0">
+                    <nav class="md:w-48 flex-shrink-0">
             <div class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">Courses</div>
             <ul class="space-y-2">
               {{ range $block.content.links }}
               <li><a class="underline hover:text-primary-600 dark:hover:text-primary-300" href="{{ .url }}">{{ .name }}</a></li>
               {{ end }}
             </ul>
+            {{ with $block.content.book }}
+            <div class="mt-8">
+              {{ $img := $.Resources.GetMatch .image }}
+              {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ end }}
+              {{ with $img }}<img src="{{ .RelPermalink }}" alt="{{ $block.content.book.title }}" class="rounded shadow w-full">{{ end }}
+              {{ if .link }}</a>{{ end }}
+              <div class="text-sm text-gray-500 dark:text-gray-400 mt-2">{{ .title }}</div>
+            </div>
+            {{ end }}
           </nav>
           <div class="prose prose-slate dark:prose-invert max-w-none">
             {{ $block.content.text | markdownify }}

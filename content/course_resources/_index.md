@@ -17,6 +17,12 @@ sections:
           url: recent_courses/
         - name: Past Courses
           url: past_courses/
+      book:
+        image: "book1_cover.jpg"
+        title: "An Introduction to Economic Dynamics: Modelling, Analysis and Simulation (Routledge, 2023)"
+        link: "https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893"
+      text: |
+        My teaching career spans India, Ireland, and Denmark. ...
       text: |
         My teaching career spans India, Ireland, and Denmark. I currently teach at the University of Galway (formerly the National University of Ireland, Galway), across undergraduate, postgraduate, and PhD levels, and have also delivered courses for development professionals and executives on finance and international development.
 
