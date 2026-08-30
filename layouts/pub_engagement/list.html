@@ -60,13 +60,18 @@
           {{ end }}
         </div>
 
-        {{ with .Params.side_images }}
-        <aside class="md:w-48 flex-shrink-0 min-w-0 not-prose">
+                {{ with .Params.side_images }}
+        <aside class="md:w-48 flex-shrink-0 min-w-0 not-prose mt-72">
           <div class="text-lg font-semibold mb-3 text-gray-900 dark:text-white">{{ .title | default "Featured In" }}</div>
           <div class="flex flex-col gap-6">
             {{ range .images }}
-            {{ $img := $.Resources.GetMatch . }}
-            {{ with $img }}<img src="{{ .RelPermalink }}" alt="" class="rounded shadow w-full max-w-full h-auto">{{ end }}
+            {{ $item := . }}
+            {{ $img := $.Resources.GetMatch $item.image }}
+            {{ with $img }}
+              {{ if $item.link }}<a href="{{ $item.link }}" target="_blank" rel="noopener">{{ end }}
+              <img src="{{ .RelPermalink }}" alt="" class="rounded shadow w-full max-w-full h-auto">
+              {{ if $item.link }}</a>{{ end }}
+            {{ end }}
             {{ end }}
           </div>
         </aside>
