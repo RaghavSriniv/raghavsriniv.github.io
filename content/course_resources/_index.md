@@ -1,5 +1,5 @@
 ---
-title: Courses, Approach, and Philosophy
+title: Teaching Philosophy and Courses Syllabi
 summary: My courses
 type: teaching
 
@@ -21,14 +21,4 @@ sections:
         My teaching career spans India, Ireland, and Denmark. I currently teach at the University of Galway (formerly the National University of Ireland, Galway), across undergraduate, postgraduate, and PhD levels, and have also delivered courses for development professionals and executives on finance and international development.
 
         Alongside a wide range of traditional economics modules, I have designed interdisciplinary courses drawing on research collaborations with colleagues in physics, mathematics, ecology, and psychology, and have taught them in diverse cultural settings across several countries. All my courses are shaped by Tagore's educational vision and pedagogic principles, adapted to the economic, intellectual, and teaching cultures of each institution. Read more about my [teaching philosophy](teaching_portfolio/).
-  - block: markdown
-    content:
-      title: 'Currently Teaching (2026-27)'
-      subtitle: 'University of Galway, Ireland'
-      text: |-
-        - Financial Economics Dynamics (FED)
-        - Development Economics
-        - PhD Seminar on Advanced Macroeconomics
-    design:
-      columns: '1'
 ---
