@@ -1,5 +1,5 @@
 ---
-title: Past courses (2000-2023)
+title: Past courses (2000-2026)
 summary: " "
 date: 2025-12-30
 type: docs
@@ -8,7 +8,7 @@ toc: false
 draft: false
 ---
 
-### University of Galway, Ireland (2004-present)
+### University of Galway, Ireland (2004-2022)
 
 #### Undergraduate
 
@@ -36,6 +36,23 @@ draft: false
 
 - Research Seminar in Macroeconomics
 
+---
+
+### Azim Premji University, India (2023-2025)
+
+#### Undergraduate 
+
+- [Intermediate Macroeconomics]({{< pdf "inter_macro_syllabus.pdf" >}})
+- [Introduction to Dynamic Analysis and Simulation]({{< pdf "idyas_syllabus.pdf">}}) (IDyAs)
+
+
+#### Postgraduate
+
+- [Macroeconomics 1: Theory and Applications]({{< pdf "macro_1_syllabus.pdf" >}})
+- [Macroeconomics of Development]({{< pdf "mac_dev_syllabus.pdf" >}})
+- [Macroeconomics of Stocks and Flows]({{< pdf "macro_stocks_flows_syllabus.pdf" >}})
+
+---
 
 ### Madras School of Economics, India (2000-2004)
 

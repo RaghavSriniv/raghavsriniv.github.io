@@ -1,23 +1,48 @@
 ---
-title: Recent courses (2023-2025)
+title: Current Courses
 summary: " "
-date: 2025-12-31
+date: 2026-08-29
 type: docs
 math: false
 toc: false
 draft: false
 ---
 
-### Azim Premji University, India (2023-2025)
+### University of Galway, Ireland — 2026-27 (Current Academic Year)
 
-#### BA
+- Financial Economics Dynamics (FED)
+- Development Economics
+- Research Seminar on Advanced Macroeconomics
 
-- [Intermediate Macroeconomics]({{< pdf "inter_macro_syllabus.pdf" >}})
-- [Introduction to Dynamic Analysis and Simulation]({{< pdf "idyas_syllabus.pdf">}}) (IDyAs)
+
+### Past courses
 
 
-#### MA
+#### Undergraduate
 
-- [Macroeconomics 1: Theory and Applications]({{< pdf "macro_1_syllabus.pdf" >}})
-- [Macroeconomics of Development]({{< pdf "mac_dev_syllabus.pdf" >}})
-- [Macroeconomics of Stocks and Flows]({{< pdf "macro_stocks_flows_syllabus.pdf" >}})
+- Advanced Economic Theory
+- Comparative Economic Thought
+- International Monetary Economics
+- Macroeconomics and Public Policy
+- Mathematics for Economics
+- Modelling, Analysis and Simulation
+- Money and Banking
+- Principles of Economics
+- Quantitative Methods for Economics
+- Seminar in Financial Economics
+- Topics in Macroeconomic Theory
+
+#### Postgraduate
+
+- International Monetary Economics
+- Macroeconomic Theory and Policy
+- Quantitative Methods in Finance
+- Seminar in Financial Economics
+
+#### PhD
+
+- Research Seminar in Macroeconomics
+
+
+
+
