@@ -151,14 +151,13 @@
   font-size: 1.25rem;
 }
 
-/* SDG footprint icons: each markdown image is wrapped in its own <figure>
-   block by the theme's image render hook, so force them into a row here. */
-.sdg-icons figure {
-  display: inline-block;
-  margin: 0 0.5rem 0.5rem 0;
-  vertical-align: top;
+/* SDG footprint icons, rendered directly in the bio widget's left column */
+.sdg-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
-.sdg-icons figure img {
-  width: 70px;
-  height: 70px;
+.sdg-icons img {
+  width: 40px;
+  height: 40px;
 }
