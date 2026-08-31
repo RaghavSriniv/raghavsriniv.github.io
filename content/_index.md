@@ -35,7 +35,7 @@ sections:
       title: 'Public Engagement'
       subtitle: 'Writing on macroeconomics for a broader audience'
       text: |-
-        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish media to the [*Making Sense of Macroeconomics*](https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc) podcast.
+        Alongside my academic research, I demystify macroeconomic ideas for general audiences through Indian and Irish media, and via podcasts such as [*Making Sense of Macroeconomics*](https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc).
 
         - [Making Sense of Macroeconomics](https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc) — podcast series, co-hosted with Chavi Mehta and Wajeeha Hamdani, on *YouTube*
         - [India's Economic Problems aren't About Currency or Gold: It's About AI](https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai) — *The India Forum*, June 2026
