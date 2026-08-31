@@ -124,3 +124,18 @@
 .hbb-list-tight {
   margin-top: 0.5rem;
 }
+.hbb-caption-xs {
+  font-size: 0.75rem;
+  color: rgb(107, 114, 128);
+}
+.dark .hbb-caption-xs {
+  color: rgb(156, 163, 175);
+}
+.hbb-caption-xs-bold {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgb(107, 114, 128);
+}
+.dark .hbb-caption-xs-bold {
+  color: rgb(156, 163, 175);
+}
