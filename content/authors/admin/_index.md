@@ -64,3 +64,11 @@ education:
 ## About Me
 
 I am a macroeconomist. My work spans three connected strands: how financialisation shapes macroeconomic stability, how development can be understood through a macro-structural lens, and how gender belongs at the centre of economic analysis, not its margins.
+
+### SDG Footprint
+
+<div class="sdg-icons">
+
+![SDG 1: No Poverty](sdg-01.png) ![SDG 4: Quality Education](sdg-04.png) ![SDG 5: Gender Equality](sdg-05.png) ![SDG 8: Decent Work and Economic Growth](sdg-08.png) ![SDG 9: Industry, Innovation and Infrastructure](sdg-09.png) ![SDG 10: Reduced Inequalities](sdg-10.png)
+
+</div>
