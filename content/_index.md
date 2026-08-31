@@ -35,9 +35,9 @@ sections:
       title: 'Public Engagement'
       subtitle: 'Writing on macroeconomics for a broader audience'
       text: |-
-        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish media to the [*Making Sense of Macroeconomics*](https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn) podcast.
+        Alongside academic research, I write and speak on macroeconomic issues for general audiences — from Indian and Irish media to the [*Making Sense of Macroeconomics*](https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc) podcast.
 
-        - [Making Sense of Macroeconomics](https://youtu.be/OkqtgYdBw-U?si=eF2BB0fKPA22lIDn) — podcast series, co-hosted with Chavi Mehta and Wajeeha Hamdani, on *YouTube*
+        - [Making Sense of Macroeconomics](https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc) — podcast series, co-hosted with Chavi Mehta and Wajeeha Hamdani, on *YouTube*
         - [India's Economic Problems aren't About Currency or Gold: It's About AI](https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai) — *The India Forum*, June 2026
         - [To stem rupee's slide, India should first fix its fragile domestic economy](https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy) — *Scroll.in*, June 2026
         - [India's export-led growth model](https://frontline.thehindu.com/economy/india-export-growth-structural-inequality-dual-economy/article69868430.ece) — *Frontline*, June 2025
