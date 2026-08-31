@@ -22,10 +22,13 @@ sections:
         title: "An Introduction to Economic Dynamics: Modelling, Analysis and Simulation (Routledge, 2023)"
         link: "https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893"
       wordcloud:
-        image: "student_feedbackwooclap_wordcloud.jpg"
-        caption: "Student feedback"
-      text: |
-        My teaching career spans India, Ireland, and Denmark. ...
+        title: "Student Feedback"
+        groups:
+          - image: "student_feedbackwooclap_wordcloud.jpg"
+            quotes:
+              - "Classes were contextualized with relevant and current examples and events, which helped understanding concepts better."
+              - "Inclusive learning environment. The instructor always kept a positive spirit with an infectious energy which helped me get into the zone and understand concepts better. He kept the mood light and taught us the most complex concepts. Often, I would not even understand how much we had covered due to the constant fun we had. Any doubts I had were immediately cleared, even the most silly ones. Definitely one of the most conducive and fun learning environments I have been a part of!"
+            details: "MA Economics, Azim Premji University, India, 2025"
       text: |
         My teaching career spans India, Ireland, and Denmark. I currently teach at the University of Galway (formerly the National University of Ireland, Galway), across undergraduate, postgraduate, and PhD levels, and have also delivered courses for development professionals and executives on finance and international development.
 

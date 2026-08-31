@@ -27,8 +27,24 @@
           {{ with $block.content.wordcloud }}
           <aside class="hbb-col-fixed flex-shrink-0 min-w-0">
             <div class="hbb-heading">{{ .title | default "Student Feedback" }}</div>
-            {{ $img := $.Resources.GetMatch .image }}
-            {{ with $img }}<img src="{{ .RelPermalink }}" alt="{{ $block.content.wordcloud.caption }}" class="rounded shadow w-full max-w-full h-auto">{{ end }}
+            <div class="flex flex-col gap-10">
+              {{ range .groups }}
+              <div>
+                {{ $img := $.Resources.GetMatch .image }}
+                {{ with $img }}<img src="{{ .RelPermalink }}" alt="Student feedback word cloud" class="rounded shadow w-full max-w-full h-auto">{{ end }}
+                {{ with .quotes }}
+                <div class="flex flex-col gap-2 mt-3">
+                  {{ range . }}
+                  <div class="hbb-caption italic">&ldquo;{{ . }}&rdquo;</div>
+                  {{ end }}
+                </div>
+                {{ end }}
+                {{ with .details }}
+                <div class="hbb-caption mt-2">{{ . }}</div>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
           </aside>
           {{ end }}
         </div>
