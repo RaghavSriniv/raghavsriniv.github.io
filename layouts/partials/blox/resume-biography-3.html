@@ -100,11 +100,14 @@
     </ul>
 
     {{ with $person.sdg_footprint }}
-    <div class="sdg-icons mt-4">
-      {{ range . }}
-      {{ $img := $person_page.Resources.GetMatch . }}
-      {{ with $img }}<img src="{{ .RelPermalink }}" alt="SDG icon" class="rounded">{{ end }}
-      {{ end }}
+    <div class="mt-4">
+      <div class="hbb-caption-xs-bold mb-2">SDG Footprint</div>
+      <div class="sdg-icons">
+        {{ range . }}
+        {{ $img := $person_page.Resources.GetMatch . }}
+        {{ with $img }}<img src="{{ .RelPermalink }}" alt="SDG icon" class="rounded">{{ end }}
+        {{ end }}
+      </div>
     </div>
     {{ end }}
   </div>
