@@ -29,6 +29,11 @@ sections:
               - "Classes were contextualized with relevant and current examples and events, which helped understanding concepts better."
               - "Inclusive learning environment. The instructor always kept a positive spirit with an infectious energy which helped me get into the zone and understand concepts better. He kept the mood light and taught us the most complex concepts. Any doubts I had were immediately cleared, even the most silly ones. Definitely one of the best learning environments I have been a part of!"
             details: "MA Economics, Azim Premji University, India, 2025"
+          - image: "cloud-1.png"
+            quotes:
+              - "The willingness and enthusiasm of the lecturer, the fact that it was a slight break from our usual type of learning/examining"
+              - "Our lectures enthusiasm for the project, it was really quite motivating"
+            details: "BA Economics, University of Galway, Ireland, 2022"
       text: |
         My teaching career spans India, Ireland, and Denmark. I currently teach at the University of Galway (formerly the National University of Ireland, Galway), across undergraduate, postgraduate, and PhD levels, and have also delivered courses for development professionals and executives on finance and international development.
 
