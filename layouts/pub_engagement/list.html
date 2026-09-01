@@ -60,10 +60,10 @@
           {{ end }}
         </div>
 
-        <aside class="hbb-col-fixed flex-shrink-0 min-w-0 not-prose">
+        <aside class="flex-shrink-0 min-w-0 not-prose">
           {{ with .Params.podcast_image }}
           {{ $pcLink := .link }}
-          <div class="hbb-nudge-small">
+          <div class="hbb-nudge-small hbb-col-fixed-lg">
             {{ $img := $.Resources.GetMatch .image }}
             {{ with $img }}
               {{ if $pcLink }}<a href="{{ $pcLink }}" target="_blank" rel="noopener">{{ end }}
@@ -74,7 +74,7 @@
           {{ end }}
 
           {{ with .Params.side_images }}
-          <div class="hbb-nudge-down">
+          <div class="hbb-nudge-down hbb-col-fixed">
             <div class="hbb-heading-sm">{{ .title | default "Featured In" }}</div>
             <div class="flex flex-col gap-6">
               {{ range .images }}
