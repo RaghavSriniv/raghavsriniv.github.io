@@ -20,7 +20,5 @@ params:
         link: "https://www.theindiaforum.in/forum/indias-economic-problems-arent-about-currency-or-gold-its-about-ai"
       - image: scroll.jpg
         link: "https://scroll.in/article/1093348/to-stem-rupees-slide-india-should-first-fix-its-fragile-domestic-economy"
-      - image: podcast_thumbnail.jpg
-        link: "https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc"
 draft: false
 ---
