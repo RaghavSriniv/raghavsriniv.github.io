@@ -11,6 +11,7 @@ params:
   subfolders:
     - podcast
     - media
+    - tamil_writings
     - talks_in_pub
   side_images:
     title: "Featured Publications"
