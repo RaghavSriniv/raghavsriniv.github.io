@@ -28,33 +28,6 @@
               <div class="hbb-list-tight container max-w-3xl w-full">
                 <div class="flex flex-col space-y-3">
                 {{ range $subPathIn.RegularPages.ByWeight }}
-                   {{ if eq $subPathIn.Params.Publication_type "series" }}
-                   {{ $episodeLink := .Params.Link }}
-                   <div class="pub-list-item view-citation flex flex-col md:flex-row gap-6 items-start" style="margin-bottom: 1rem;">
-                     <div class="flex-1 min-w-0">
-                        {{ if $episodeLink}}
-                          <a class="underline" href="{{ $episodeLink}}" target="blank">
-                          {{ .Title }}.</a>
-                        {{ else }}
-                          <span class="font-semibold">{{ .Title }}.</span> 
-                        {{ end }}
-                        {{ with .Params.Media }}
-                          <span class="italic"> {{ . }}. </span>
-                        {{ end }}
-                        {{ with .Content }}
-                          <div class="hbb-caption">{{ . }}</div>
-                        {{ end }}
-                     </div>
-                     {{ $podcastThumb := $.Resources.GetMatch "podcast_thumbnail.jpg" }}
-                     {{ with $podcastThumb }}
-                     <div class="hbb-col-fixed flex-shrink-0">
-                       {{ if $episodeLink }}<a href="{{ $episodeLink }}" target="_blank" rel="noopener">{{ end }}
-                       <img src="{{ .RelPermalink }}" alt="Podcast thumbnail" class="rounded shadow w-full max-w-full h-auto">
-                       {{ if $episodeLink }}</a>{{ end }}
-                     </div>
-                     {{ end }}
-                   </div>
-                   {{ else }}
                    <div class="pub-list-item view-citation " style="margin-bottom: 1rem;"> 
                       {{ if ne $subPathIn.Params.Publication_type "series" }}
                         {{- partial "list_authors.html" .Params -}}
@@ -80,7 +53,6 @@
                       
                       
                     </div>
-                   {{ end }}
                 {{ end }}
                 </div>
               </div>
@@ -88,22 +60,36 @@
           {{ end }}
         </div>
 
-        {{ with .Params.side_images }}
-        <aside class="hbb-col-fixed flex-shrink-0 min-w-0 not-prose hbb-nudge-down">
-          <div class="hbb-heading-sm">{{ .title | default "Featured In" }}</div>
-          <div class="flex flex-col gap-6">
-            {{ range .images }}
-            {{ $item := . }}
-            {{ $img := $.Resources.GetMatch $item.image }}
+        <aside class="hbb-col-fixed flex-shrink-0 min-w-0 not-prose">
+          {{ with .Params.podcast_image }}
+          {{ $pcLink := .link }}
+          <div>
+            {{ $img := $.Resources.GetMatch .image }}
             {{ with $img }}
-              {{ if $item.link }}<a href="{{ $item.link }}" target="_blank" rel="noopener">{{ end }}
-              <img src="{{ .RelPermalink }}" alt="" class="rounded shadow w-full max-w-full h-auto">
-              {{ if $item.link }}</a>{{ end }}
-            {{ end }}
+              {{ if $pcLink }}<a href="{{ $pcLink }}" target="_blank" rel="noopener">{{ end }}
+              <img src="{{ .RelPermalink }}" alt="Podcast thumbnail" class="rounded shadow w-full max-w-full h-auto">
+              {{ if $pcLink }}</a>{{ end }}
             {{ end }}
           </div>
+          {{ end }}
+
+          {{ with .Params.side_images }}
+          <div class="hbb-nudge-down">
+            <div class="hbb-heading-sm">{{ .title | default "Featured In" }}</div>
+            <div class="flex flex-col gap-6">
+              {{ range .images }}
+              {{ $item := . }}
+              {{ $img := $.Resources.GetMatch $item.image }}
+              {{ with $img }}
+                {{ if $item.link }}<a href="{{ $item.link }}" target="_blank" rel="noopener">{{ end }}
+                <img src="{{ .RelPermalink }}" alt="" class="rounded shadow w-full max-w-full h-auto">
+                {{ if $item.link }}</a>{{ end }}
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
         </aside>
-        {{ end }}
       </div>
 
       {{ partial "components/last-edited.html" . }}

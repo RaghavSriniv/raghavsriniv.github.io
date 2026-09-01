@@ -13,6 +13,9 @@ params:
     - media
     - tamil_writings
     - talks_in_pub
+  podcast_image:
+    image: podcast_thumbnail.jpg
+    link: "https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc"
   side_images:
     title: "Featured Publications"
     images:
