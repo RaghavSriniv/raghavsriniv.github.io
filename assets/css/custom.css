@@ -163,14 +163,14 @@
 }
 
 .hbb-nudge-small {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 .hbb-col-fixed-lg {
   width: 100%;
 }
 @media (min-width: 768px) {
   .hbb-col-fixed-lg {
-    width: 18rem;
+    width: 15rem;
     flex-shrink: 0;
   }
 }
