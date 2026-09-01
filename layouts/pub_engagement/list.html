@@ -63,7 +63,7 @@
         <aside class="hbb-col-fixed flex-shrink-0 min-w-0 not-prose">
           {{ with .Params.podcast_image }}
           {{ $pcLink := .link }}
-          <div>
+          <div class="hbb-nudge-small">
             {{ $img := $.Resources.GetMatch .image }}
             {{ with $img }}
               {{ if $pcLink }}<a href="{{ $pcLink }}" target="_blank" rel="noopener">{{ end }}
