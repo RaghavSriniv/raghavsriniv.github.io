@@ -10,7 +10,7 @@ draft: false
 
 ### University of Galway, Ireland — 2026-27 (Current Academic Year)
 
-- Financial Economics Dynamics (FED)
+- [Financial Economic Dynamics (FED)](../fed_lecture_notes/)
 - Development Economics
 - Research Seminar on Advanced Macroeconomics
 
