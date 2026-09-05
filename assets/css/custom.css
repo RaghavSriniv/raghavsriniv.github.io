@@ -144,7 +144,7 @@
    Teaching Philosophy, and the Blog/default list page) - the original
    lg:text-6xl class was never in the prebuilt wc.min.css bundle. */
 .hbb-page-title-sm {
-  font-size: 2.25rem;
+  font-size: 1.875rem;
 }
 /* Public Engagement subsection headings (Podcast, In the Media, Public Talks) */
 .pub-engage-main h3 {
