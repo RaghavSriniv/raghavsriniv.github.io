@@ -16,9 +16,9 @@
 			<div class="mt-8 sm:mt-10 flex flex-col space-y-4">
 				{{ range $element := sort $publications.conference_presentations "weight" }}
 				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					<div class="font-semibold mb-1">{{ $element.conference }}, {{ $element.location }}.</div>
 					{{ with $element.session }}<div class="hbb-caption-xs-bold mb-1">{{ . }}</div>{{ end }}
-					{{ $element.title }}.
-					{{ $element.conference }}, {{ $element.location }}.
+					<span class="text-sm">{{ $element.title }}.</span>
 				</div>
 				{{ end }}
 			</div>
