@@ -174,3 +174,12 @@
     flex-shrink: 0;
   }
 }
+.hbb-conf-col {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .hbb-conf-col {
+    width: 18rem;
+    flex-shrink: 0;
+  }
+}

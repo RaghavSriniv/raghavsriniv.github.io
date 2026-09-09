@@ -7,6 +7,24 @@
 			</div>
 		</div>
 
+	<div class="hbb-flex-cols max-w-screen-xl mx-auto px-6">
+
+		<div class="hbb-conf-col flex-shrink-0">
+			<div class="mt-16 sm:mt-20 text-xl font-bold">
+				Conference Presentations
+			</div>
+			<div class="mt-8 sm:mt-10 flex flex-col space-y-4">
+				{{ range $element := sort $publications.conference_presentations "weight" }}
+				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					{{ with $element.session }}<div class="hbb-caption-xs-bold mb-1">{{ . }}</div>{{ end }}
+					{{ $element.title }}.
+					{{ $element.conference }}, {{ $element.location }}.
+				</div>
+				{{ end }}
+			</div>
+		</div>
+
+		<div class="hbb-flex-main">
 
 		<!-- Books -->
 		<div class="flex flex-col items-center px-6">
@@ -148,4 +166,7 @@
 				</div>
 			</div>
 		</div>
+
+		</div>
+	</div>
 </section>
