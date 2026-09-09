@@ -183,3 +183,18 @@
     flex-shrink: 0;
   }
 }
+.hbb-conf-heading {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(var(--color-primary-600));
+}
+.dark .hbb-conf-heading {
+  color: rgb(var(--color-primary-300));
+}
+.hbb-paper-title {
+  font-size: 0.6875rem;
+  color: rgb(107, 114, 128);
+}
+.dark .hbb-paper-title {
+  color: rgb(156, 163, 175);
+}
