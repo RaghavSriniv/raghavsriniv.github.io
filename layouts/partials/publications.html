@@ -15,7 +15,7 @@
 			</div>
 			{{ $confList := sort $publications.conference_presentations "weight" }}
 			{{ with index $confList 0 }}
-			<div class="hbb-conf-heading mt-8 sm:mt-10">{{ .conference }}, {{ .location }}.</div>
+			<div class="hbb-conf-heading mt-8 sm:mt-10"><a href="https://eaepe.org/" target="_blank" rel="noopener">{{ .conference }}, {{ .location }}.</a></div>
 			{{ end }}
 			<div class="mt-4 flex flex-col space-y-4">
 				{{ range $confList }}
