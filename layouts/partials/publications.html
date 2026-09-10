@@ -14,17 +14,31 @@
 				Conference papers (recent)
 			</div>
 			{{ $confList := sort $publications.conference_presentations "weight" }}
-			{{ with index $confList 0 }}
-			<div class="hbb-conf-heading mt-8 sm:mt-10"><a href="https://eaepe.org/" target="_blank" rel="noopener">{{ .conference }}, {{ .location }}.</a></div>
-			{{ end }}
-			<div class="mt-4 flex flex-col space-y-4">
-				{{ range $confList }}
-				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-					{{ with .session }}<div class="hbb-caption-xs-bold mb-1">{{ . }}</div>{{ end }}
-					<div class="hbb-paper-title">{{ .title }}.</div>
-				</div>
+			{{ $seenConfs := slice }}
+			{{ range $confList }}
+				{{ $curConf := .conference }}
+				{{ $curLoc := .location }}
+				{{ $curLink := .conference_link }}
+				{{ $key := printf "%s|%s" $curConf $curLoc }}
+				{{ if not (in $seenConfs $key) }}
+					{{ $seenConfs = $seenConfs | append $key }}
+					<div class="hbb-conf-heading mt-8 sm:mt-10">
+						{{ if $curLink }}<a href="{{ $curLink }}" target="_blank" rel="noopener">{{ end }}
+						{{ $curConf }}, {{ $curLoc }}.
+						{{ if $curLink }}</a>{{ end }}
+					</div>
+					<div class="mt-4 flex flex-col space-y-4">
+						{{ range $confList }}
+							{{ if and (eq .conference $curConf) (eq .location $curLoc) }}
+							<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+								{{ with .session }}<div class="hbb-caption-xs-bold mb-1">{{ . }}</div>{{ end }}
+								<div class="hbb-paper-title">{{ .title }}.</div>
+							</div>
+							{{ end }}
+						{{ end }}
+					</div>
 				{{ end }}
-			</div>
+			{{ end }}
 		</div>
 
 		<div class="hbb-flex-main">
