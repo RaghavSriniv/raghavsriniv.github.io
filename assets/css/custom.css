@@ -198,3 +198,36 @@
 .dark .hbb-paper-title {
   color: rgb(156, 163, 175);
 }
+.hbb-tooltip-trigger {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted currentColor;
+}
+.hbb-tooltip-content {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 100%;
+  margin-top: 0.5rem;
+  width: 320px;
+  max-width: 80vw;
+  background: #fff;
+  color: rgb(55, 65, 81);
+  font-size: 0.8125rem;
+  font-style: italic;
+  line-height: 1.5;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transition: opacity 0.15s ease;
+}
+.dark .hbb-tooltip-content {
+  background: rgb(31, 41, 55);
+  color: rgb(209, 213, 219);
+}
+.hbb-tooltip-trigger:hover .hbb-tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}

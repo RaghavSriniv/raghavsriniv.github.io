@@ -53,21 +53,32 @@
 			<div class="mt-8 sm:mt-10 container max-w-3xl w-full">
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
-					{{ range $element := sort $publications.books "weight" }}
-					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-						
-						{{ partial "list_authors.html" . }}
-						
-						({{ $element.date }}).
+				{{ range $element := sort $publications.books "weight" }}
+				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					
+					{{ partial "list_authors.html" . }}
+					
+					({{ $element.date }}).
+					{{ if $element.praise }}
+					<span class="hbb-tooltip-trigger">
+						{{ if $element.link}}
+							<a class="underline" href="{{ $element.link}}" target="blank">{{ $element.title }}</a>.
+						{{ else }}
+							{{ $element.title}}.
+						{{ end }}
+						<span class="hbb-tooltip-content">&ldquo;{{ $element.praise }}&rdquo; — {{ $element.praise_author }}</span>
+					</span>
+					{{ else }}
 						{{ if $element.link}}
 							<a class="underline" href="{{ $element.link}}" target="blank">
 							{{ $element.title }}</a>.
 						{{ else }}
 							{{ $element.title}}.
 						{{ end }}
-						{{ $element.publication }}.
-					</div>
 					{{ end }}
+					{{ $element.publication }}.
+				</div>
+				{{ end }}
 				</div>
 			</div>
 		</div>
