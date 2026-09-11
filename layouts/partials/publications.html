@@ -66,7 +66,7 @@
 						{{ else }}
 							{{ $element.title}}.
 						{{ end }}
-						<span class="hbb-tooltip-content">&ldquo;{{ $element.praise }}&rdquo; — {{ $element.praise_author }}</span>
+						<span class="hbb-tooltip-content">&ldquo;{{ $element.praise }}&rdquo; — <span class="hbb-praise-author">{{ $element.praise_author }}</span></span>
 					</span>
 					{{ else }}
 						{{ if $element.link}}

@@ -230,3 +230,11 @@
   visibility: visible;
   opacity: 1;
 }
+.hbb-praise-author {
+  color: rgb(var(--color-primary-600));
+  font-style: normal;
+  font-weight: 600;
+}
+.dark .hbb-praise-author {
+  color: rgb(var(--color-primary-300));
+}
