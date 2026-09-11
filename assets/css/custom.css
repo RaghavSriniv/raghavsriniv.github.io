@@ -201,7 +201,6 @@
 .hbb-tooltip-trigger {
   position: relative;
   cursor: help;
-  border-bottom: 1px dotted currentColor;
 }
 .hbb-tooltip-content {
   visibility: hidden;
