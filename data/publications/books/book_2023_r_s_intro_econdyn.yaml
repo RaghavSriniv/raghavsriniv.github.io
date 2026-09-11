@@ -14,4 +14,7 @@ link: "https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-
 # Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
+praise: "This book is a welcome addition to the literature on economic dynamics. Its clear writing style and the emphasis on coding using MATLAB® make it a compelling text for introducing undergraduate economics students to stability issues, cycles, and growth. The emphasis on both standard models like the Solow growth model and less standard ones such as the Goodwin growth cycle appeal to a broad spectrum of economists in the profession, and the highly competent authors have put years of experience with the material into a highly accessible textbook. I highly recommend the book to anyone willing to incorporate numerical methods into macroeconomic courses."
+praise_author: "Daniele Tavani, Professor of Economics, Colorado State University, USA"
+
 ---
