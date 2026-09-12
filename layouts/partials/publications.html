@@ -205,8 +205,8 @@
 			<div class="mt-8 sm:mt-10 flex flex-col space-y-4">
 				{{ range $element := sort . "weight" }}
 				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
-					{{ $element.title }} &mdash; see the PLoS ONE paper
-					<a class="underline" href="{{ $element.link }}" target="_blank" rel="noopener">review in <span class="hbb-praise-author">{{ $element.outlet }}</span></a>.
+					<div class="hbb-paper-title">{{ $element.title }} &mdash; see the PLoS ONE paper
+					<a href="{{ $element.link }}" target="_blank" rel="noopener">review in <span class="hbb-conf-heading">{{ $element.outlet }}</span></a>.</div>
 				</div>
 				{{ end }}
 			</div>
