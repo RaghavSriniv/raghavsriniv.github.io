@@ -195,6 +195,24 @@
 			</div>
 		</div>
 
+
+		{{ with $publications.highlights }}
+		<div class="hbb-conf-col flex-shrink-0">
+			<div class="mt-16 sm:mt-20 text-base font-bold">
+				Highlights
+			</div>
+			<div class="mt-8 sm:mt-10 flex flex-col space-y-4">
+				{{ range $element := sort . "weight" }}
+				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					This publication was
+					<a class="underline" href="{{ $element.link }}" target="_blank" rel="noopener">covered by {{ $element.outlet }}</a>
+					with an article titled &ldquo;{{ $element.title }}&rdquo;.
+				</div>
+				{{ end }}
+			</div>
+		</div>
+		{{ end }}
+
 		</div>
 	</div>
 </section>
