@@ -238,3 +238,26 @@
 .dark .hbb-praise-author {
   color: rgb(var(--color-primary-300));
 }
+
+/* Publications page redesign: dividers between main-column subsections,
+   card styling for side-column entries, smaller main list text. */
+.hbb-section-divider {
+  border-top: 1px solid rgb(229, 231, 235);
+  padding-top: 2.5rem;
+}
+.dark .hbb-section-divider {
+  border-top-color: rgb(55, 65, 81);
+}
+.hbb-side-card {
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 0.5rem;
+  padding: 0.85rem 1rem;
+  background: rgb(249, 250, 251);
+}
+.dark .hbb-side-card {
+  border-color: rgb(55, 65, 81);
+  background: rgba(31, 41, 55, 0.4);
+}
+.hbb-pub-text {
+  font-size: 0.875rem;
+}

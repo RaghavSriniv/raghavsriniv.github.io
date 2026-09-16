@@ -27,10 +27,10 @@
 						{{ $curConf }}, {{ $curLoc }}.
 						{{ if $curLink }}</a>{{ end }}
 					</div>
-					<div class="mt-4 flex flex-col space-y-4">
+					<div class="mt-4 flex flex-col space-y-3">
 						{{ range $confList }}
 							{{ if and (eq .conference $curConf) (eq .location $curLoc) }}
-							<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+							<div class="pub-list-item view-citation hbb-side-card">
 								{{ with .session }}<div class="hbb-caption-xs-bold mb-1">{{ . }}</div>{{ end }}
 								<div class="hbb-paper-title">{{ .title }}.</div>
 							</div>
@@ -54,7 +54,7 @@
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 				{{ range $element := sort $publications.books "weight" }}
-				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+				<div class="pub-list-item view-citation hbb-pub-text" style="margin-bottom: 1rem;">
 					
 					{{ partial "list_authors.html" . }}
 					
@@ -84,7 +84,7 @@
 		</div>
 
 		<!-- Working Papers -->
-		<div class="flex flex-col items-center px-6">
+		<div class="flex flex-col items-center px-6 hbb-section-divider">
 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
 				Journal Articles in the Pipeline
 			</div>
@@ -94,7 +94,7 @@
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 					{{ range $element := sort $publications.working_papers "weight" }}
-					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					<div class="pub-list-item view-citation hbb-pub-text" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
 						{{ if $element.link}}
@@ -111,7 +111,7 @@
 		</div>
 
 		<!-- Selected Journal Articles -->
-		<div class="flex flex-col items-center px-6">
+		<div class="flex flex-col items-center px-6 hbb-section-divider">
 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
 				Recent Journal Articles
 			</div>
@@ -122,7 +122,7 @@
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 					{{ range $element := sort $publications.selected_articles "weight" }}
-					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					<div class="pub-list-item view-citation hbb-pub-text" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
 						{{ if $element.link}}
@@ -139,7 +139,7 @@
 		</div>
 
 		<!-- Selected Chapters in Books -->
-		<div class="flex flex-col items-center px-6">
+		<div class="flex flex-col items-center px-6 hbb-section-divider">
 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
 				Selected Chapters in Books
 			</div>
@@ -150,7 +150,7 @@
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 					{{ range $element := sort $publications.selected_chapters "weight" }}
-					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					<div class="pub-list-item view-citation hbb-pub-text" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 						({{ $element.date }}).
 						{{ if $element.link}}
@@ -167,7 +167,7 @@
 		</div>
 
 		<!-- Selected Conference Volumes -->
-		<div class="flex flex-col items-center px-6">
+		<div class="flex flex-col items-center px-6 hbb-section-divider">
 			<div class="mt-16 sm:mt-20 container max-w-3xl w-full text-xl font-bold">
 				Selected Conference Volumes
 			</div>
@@ -178,7 +178,7 @@
 				<div class="flex flex-col space-y-3">
 					<!-- Each pub-item -->
 					{{ range $element := sort $publications.selected_conference_volumes "weight" }}
-					<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+					<div class="pub-list-item view-citation hbb-pub-text" style="margin-bottom: 1rem;">
 						{{ partial "list_authors.html" . }}
 
 						({{ $element.date }}).
@@ -194,7 +194,7 @@
 				</div>
 			</div>
 		</div>
-</div>
+	</div>
 
 
 		{{ with $publications.highlights }}
@@ -202,9 +202,9 @@
 			<div class="mt-16 sm:mt-20 text-base font-bold">
 				Highlights
 			</div>
-			<div class="mt-8 sm:mt-10 flex flex-col space-y-4">
+			<div class="mt-8 sm:mt-10 flex flex-col space-y-3">
 				{{ range $element := sort . "weight" }}
-				<div class="pub-list-item view-citation" style="margin-bottom: 1rem;">
+				<div class="pub-list-item view-citation hbb-side-card">
 					<div class="hbb-paper-title">{{ $element.title }} &mdash; see the PLoS ONE paper
 					<a href="{{ $element.link }}" target="_blank" rel="noopener">review in <span class="hbb-conf-heading">{{ $element.outlet }}</span></a>.</div>
 				</div>
