@@ -250,12 +250,20 @@
 }
 .hbb-side-card {
   border: 1px solid rgb(229, 231, 235);
+  border-left: 3px solid rgb(var(--color-primary-500));
   border-radius: 0.5rem;
-  padding: 0.85rem 1rem;
+  padding: 1rem 1.1rem;
   background: rgb(249, 250, 251);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.hbb-side-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
 }
 .dark .hbb-side-card {
   border-color: rgb(55, 65, 81);
+  border-left-color: rgb(var(--color-primary-400));
   background: rgba(31, 41, 55, 0.4);
 }
 .hbb-pub-text {
