@@ -110,6 +110,10 @@
       </div>
     </div>
     {{ end }}
+
+    {{ with $person.name_note }}
+    <div class="hbb-caption-xs mt-4">{{ . }}</div>
+    {{ end }}
   </div>
   </div>
 
