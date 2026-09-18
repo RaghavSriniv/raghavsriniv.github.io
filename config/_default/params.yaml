@@ -40,6 +40,7 @@ header:
 
 # Site footer
 footer:
+  text: 'My legal name, Srinivasan Raghavendran, and my academic publishing name, Srinivas Raghavendra, refer to the same person.'
   copyright:
     notice: '© {year} Srinivas Raghavendra. This work is licensed under {license}'
     license:

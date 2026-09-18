@@ -67,8 +67,6 @@ sdg_footprint:
   - sdg-08.png
   - sdg-09.png
   - sdg-10.png
-
-name_note: "My legal name, Srinivasan Raghavendran, and my academic publishing name, Srinivas Raghavendra, refer to the same person."
 ---
 
 ## About Me
