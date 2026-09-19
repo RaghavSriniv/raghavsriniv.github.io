@@ -40,7 +40,7 @@
   min-width: 0;
 }
 .hbb-nudge-down {
-  margin-top: 24rem;
+  margin-top: 1rem;
 }
 
 /* Sidebar heading and caption colors (light/dark) - the Tailwind combo classes
@@ -272,4 +272,11 @@
 .hbb-name-note {
   max-width: 180px;
   font-size: 0.65rem;
+}
+
+/* Wide screens: put the Featured Publications figures level with the first entry under "In the media" */
+@media (min-width: 1280px) {
+  .hbb-nudge-down {
+    margin-top: 4.5625rem;
+  }
 }
