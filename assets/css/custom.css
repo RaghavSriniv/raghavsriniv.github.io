@@ -280,3 +280,11 @@
     margin-top: 4.5625rem;
   }
 }
+
+/* Bio: keep the affiliation lines close together, with a little air before the email */
+.portrait-title .hbb-org-line {
+  margin-bottom: 0;
+}
+.portrait-title .hbb-email-line {
+  margin-top: 0.5rem;
+}
