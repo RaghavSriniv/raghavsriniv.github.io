@@ -24,6 +24,7 @@ highlight_name: true
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
+  - name: J.E. Cairnes School of Business & Economics
   - name: University of Galway, Ireland
     url: https://www.universityofgalway.ie/our-research/people/business-and-economics/sraghav/
 
