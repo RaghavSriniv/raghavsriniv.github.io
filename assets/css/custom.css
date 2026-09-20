@@ -286,5 +286,12 @@
   margin-bottom: 0;
 }
 .portrait-title .hbb-email-line {
-  margin-top: 0.5rem;
+  margin-top: 0.875rem;
+}
+.portrait-title .hbb-email-line a {
+  color: #a5b4fc;
+}
+.portrait-title .hbb-email-line a:hover {
+  color: #c7d2fe;
+  text-decoration: underline;
 }
