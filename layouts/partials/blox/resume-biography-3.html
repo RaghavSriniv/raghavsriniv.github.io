@@ -72,6 +72,10 @@
         {{ if .url }}</a>{{ end }}
       </div>
       {{ end }}
+
+      {{ with $person.email }}
+      <div class="mb-2 hbb-pub-text"><a href="mailto:{{ . }}">{{ . }}</a></div>
+      {{ end }}
     </div>
 
     <ul class="network-icon dark:text-zinc-100">

@@ -27,6 +27,9 @@ organizations:
   - name: University of Galway, Ireland
     url: https://www.universityofgalway.ie/our-research/people/business-and-economics/sraghav/
 
+# Institutional e-mail, shown under the affiliation in the Biography blox
+email: s.raghav@universityofgalway.ie
+
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
