@@ -14,6 +14,14 @@ Lecture notes for Financial Economic Dynamics (FED), University of Galway, 2026-
 - [Course Outline 2026/27]({{< pdf "course_0utline_26_27.pdf" >}})
 - [Introductory lecture - "Time is Money, Yet Finance Has No Time"]({{< pdf "Intro_lecture.pdf" >}})
 
+## Dynamical Systems Toolkit
+
+- [Foundations: The Dynamics Toolkit]({{< pdf "FED_Foundations_Dynamics_toolkit.pdf" >}})
+
+## Fisher Separation Theorem: Supplementary notes
+
+- [Fisher's Separation Theorem: Analytical Example]({{< pdf "FST-analytical example.pdf" >}})
+
 <!--
 To add a new week's notes once you have the PDF file:
 1. Save the PDF into this same folder: content/course_resources/fed_lecture_notes/
