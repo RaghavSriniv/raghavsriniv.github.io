@@ -4,6 +4,6 @@ title: "Thinking about self and talking about the economy: The challenges and Jo
 date: 2025-02-06
 weight: 200
 institution: "Azim Premji University"
-place: "Bangalore"
+place: "Bangalore, India"
 ---
 
