@@ -33,7 +33,7 @@
             {{ if not (in $seenTalks $key) }}
               {{ $seenTalks = $seenTalks | append $key }}
               <div class="hbb-conf-heading mt-8 sm:mt-10">
-                {{ $curInst }}{{ with $curPlace }}, {{ . }}{{ end }}.
+                {{ $curInst }}{{ with $curPlace }}, {{ . }}{{ end }}
               </div>
               <div class="mt-4 flex flex-col space-y-3">
                 {{ range $talkList }}
