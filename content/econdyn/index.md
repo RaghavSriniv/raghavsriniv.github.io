@@ -41,7 +41,7 @@ The aim of **Econdyn Lab** is to provide a simulation tool to help experimental 
 - Second, go to the main reference [textbook](https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893?srsltid=AfmBOope-Gqo9JJP0K0daIguN1U2Ox5amZjuKVKVRzDjAiF5-Zh0tF22) and study the models to see how the dynamics in those plots are generated.
   <br>
 
-- Third, experimenting with the paramter values will help you understand what values make "economic" sense and what values don't!
+- Third, experimenting with the parameter values will help you understand what values make "economic" sense and what values don't!
 
 <br>
 
