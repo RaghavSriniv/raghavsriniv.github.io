@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "DevMac (Development Macroeconomics) Pedagogy Summer School"
+title: "Development Macroeconomics Pedagogy Summer School"
 date: 2026-07-06
 weight: 30
 institution: "Azim Premji University"
