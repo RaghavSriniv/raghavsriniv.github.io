@@ -13,6 +13,9 @@ params:
     - media
     - tamil_writings
     - talks_in_pub
+  # Recent talks also shown in a left-hand column (like "Conference papers (recent)" on the Research page)
+  side_talks: talks_in_pub
+  side_talks_from_year: 2026
   podcast_image:
     image: podcast_thumbnail.jpg
     link: "https://www.youtube.com/watch?v=OkqtgYdBw-U&list=PLdGcLLmYFpoc"

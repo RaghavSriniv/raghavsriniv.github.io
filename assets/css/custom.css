@@ -295,3 +295,14 @@
   color: #c7d2fe;
   text-decoration: underline;
 }
+
+/* Public Engagement: left "Public Talks" column - top spacing aligned with the page title */
+.hbb-talks-col-top {
+  margin-top: 1.5rem;
+}
+/* On phones, show the Public Talks column after the main content so the page title stays at the top */
+@media (max-width: 767px) {
+  .hbb-talks-col {
+    order: 2;
+  }
+}

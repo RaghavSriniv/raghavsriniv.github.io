@@ -1,9 +1,8 @@
 {{- define "main" -}}
 <div class="mx-auto flex max-w-screen-xl">
-  {{ partial "components/sidebar.html" (dict "context" . "no_sidebar" true) }}
-  {{ partial "components/toc.html" . }}
+  {{/* Empty sidebar + TOC removed so the three-column layout (Public Talks | content | images) gets the full page width */}}
   <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-none px-6 pt-4">
       <div class="mb-1">
         {{ if not .Params.breadcrumb }}
         <!-- No breadcrumb -->
@@ -13,6 +12,47 @@
       </div>
 
       <div class="content text-base hbb-flex-cols">
+        <!-- Left column: Public talks, styled like "Conference papers (recent)" on the Research page -->
+        {{ with .Params.side_talks }}
+        {{ $talksSec := site.GetPage "section" (printf "%s/%s" $.Path .) }}
+        {{ with $talksSec }}
+        <aside class="hbb-conf-col hbb-talks-col flex-shrink-0 not-prose">
+          <div class="hbb-talks-col-top text-base font-bold">
+            {{ .Title }} (recent)
+          </div>
+          {{ $fromYear := $.Params.side_talks_from_year | default 0 }}
+          {{ $talkList := slice }}
+          {{ range .RegularPages.ByWeight }}
+            {{ if ge .Date.Year $fromYear }}{{ $talkList = $talkList | append . }}{{ end }}
+          {{ end }}
+          {{ $seenTalks := slice }}
+          {{ range $talkList }}
+            {{ $curInst := .Params.institution }}
+            {{ $curPlace := .Params.place }}
+            {{ $key := printf "%s|%s" $curInst $curPlace }}
+            {{ if not (in $seenTalks $key) }}
+              {{ $seenTalks = $seenTalks | append $key }}
+              <div class="hbb-conf-heading mt-8 sm:mt-10">
+                {{ $curInst }}{{ with $curPlace }}, {{ . }}{{ end }}.
+              </div>
+              <div class="mt-4 flex flex-col space-y-3">
+                {{ range $talkList }}
+                  {{ if and (eq .Params.institution $curInst) (eq .Params.place $curPlace) }}
+                  <div class="pub-list-item view-citation hbb-side-card">
+                    <div class="hbb-caption-xs-bold mb-1">{{ time.Format "Jan 2006" .Date }}</div>
+                    <div class="hbb-paper-title">
+                      {{ if .Params.link }}<a class="underline" href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Title }}.</a>{{ else }}{{ .Title }}.{{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </aside>
+        {{ end }}
+        {{ end }}
+
         <div class="hbb-flex-main pub-engage-main">
           <h1 class="hbb-page-title-sm">{{ .Title }} </h1>
           {{ .Content }}
