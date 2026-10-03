@@ -31,6 +31,11 @@
 						{{ range $confList }}
 							{{ if and (eq .conference $curConf) (eq .location $curLoc) }}
 							<div class="pub-list-item view-citation hbb-side-card">
+								{{ with .date }}
+									{{ $d := string . }}
+									{{ if eq (len $d) 7 }}{{ $d = printf "%s-01" $d }}{{ end }}
+									<div class="hbb-caption-xs-bold mb-1">{{ if eq (len $d) 4 }}{{ $d }}{{ else }}{{ time.Format "Jan 2006" $d }}{{ end }}</div>
+								{{ end }}
 								{{ with .session }}<div class="hbb-caption-xs-bold mb-1">{{ . }}</div>{{ end }}
 								<div class="hbb-paper-title">{{ .title }}.</div>
 							</div>
