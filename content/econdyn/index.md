@@ -35,7 +35,7 @@ The aim of **Econdyn Lab** is to provide a simulation tool to help experimental 
 <br>
 <br>
 
-- First, play around the with the parameter values and initial conditions in various models and see how the output plots change - thanks to our dynamic and talented intern **Aditya Mahadevan** for working on the simulation toolbars using the Shiny package in R (open source). 🫡
+- First, play around the with the parameter values and initial conditions in various models and see how the output plots change - thanks to our dynamic and talented intern **Aditya Mahadevan** for working on the simulation toolbars using the Shiny package in R (open source).
   <br>
 
 - Second, go to the main reference [textbook](https://www.routledge.com/An-Introduction-to-Economic-Dynamics-Modelling-Analysis-and-Simulation/Raghavendra-Piiroinen/p/book/9780367341893?srsltid=AfmBOope-Gqo9JJP0K0daIguN1U2Ox5amZjuKVKVRzDjAiF5-Zh0tF22) and study the models to see how the dynamics in those plots are generated.
@@ -45,7 +45,7 @@ The aim of **Econdyn Lab** is to provide a simulation tool to help experimental 
 
 <br>
 
-_Simulate, Experiment, and Repeat_ 😹
+_Simulate, Experiment, Repeat_
 
 <br>
 
