@@ -16,6 +16,8 @@ Lecture notes for Financial Economic Dynamics (FED), University of Galway, 2026-
 - [Dynamical Systems Toolkit]({{< pdf "FED_Foundations_Dynamics_toolkit.pdf" >}})
 - [Mainstream Static: Fisher Separation Theorem]({{< pdf "FST-analytical example.pdf" >}})
 - [Mainstream Static: Fisher-Markowitz-Tobin Arc]({{< pdf "fisher_markowitz_tobin_slides.pdf" >}})
+- [Tobin's Separation Theorem]({{< pdf "tobin_separation_theorem_slides.pdf" >}})
+- [Tobin, CAPM and EMH: Restating the Separation Theorem]({{< pdf "tobin_capm_emh_slides.pdf" >}})
 
 <!--
 To add a new week's notes once you have the PDF file:
