@@ -8,7 +8,7 @@ toc: false
 draft: false
 ---
 
-### University of Galway, Ireland — 2026-27 (Current Academic Year)
+### University of Galway, Ireland — 2026-27
 
 <div class="hbb-course-list">
   <div class="hbb-course-item">
