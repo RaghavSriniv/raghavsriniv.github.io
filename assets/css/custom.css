@@ -333,3 +333,12 @@
   color: rgb(var(--color-primary-200));
   background: rgba(var(--color-primary-400), 0.18);
 }
+
+/* Special lectures: extra tag styles */
+.hbb-tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.hbb-course-desc { font-size: 0.9rem; color: rgb(75, 85, 99); }
+.dark .hbb-course-desc { color: rgb(156, 163, 175); }
+.hbb-cohort.hbb-tag-special { color: rgb(146, 64, 14); background: rgba(245, 158, 11, 0.14); }
+.dark .hbb-cohort.hbb-tag-special { color: rgb(252, 211, 77); background: rgba(245, 158, 11, 0.18); }
+.hbb-cohort.hbb-tag-date { color: rgb(55, 65, 81); background: rgba(107, 114, 128, 0.12); }
+.dark .hbb-cohort.hbb-tag-date { color: rgb(209, 213, 219); background: rgba(156, 163, 175, 0.18); }

@@ -26,6 +26,21 @@ draft: false
 </div>
 
 
+#### Special Lectures
+
+<div class="hbb-course-list">
+  <div class="hbb-course-item">
+    <a class="hbb-course-title hbb-course-link" href="{{< pdf "philosophy_methodology_macro_paradoxes_slides.pdf" >}}" target="_blank" rel="noopener">Philosophy and Methodology of Macroeconomics through Five Paradoxes</a>
+    <span class="hbb-course-desc">Thrift, wages and profits, debt, stability and bank runs: five paradoxes as a way into what kind of thing the economy is.</span>
+    <div class="hbb-tag-row">
+      <span class="hbb-cohort hbb-tag-special">Special Lecture · Philosophy of Social Sciences</span>
+      <span class="hbb-cohort">PhD in Economics and Social Sciences</span>
+      <span class="hbb-cohort hbb-tag-date">November 2026</span>
+    </div>
+  </div>
+</div>
+
+
 ### Past courses
 
 
