@@ -306,3 +306,30 @@
     order: 2;
   }
 }
+
+/* Current courses: course title with cohort label */
+.hbb-course-list { display: flex; flex-direction: column; gap: 0.75rem; margin: 1.25rem 0 2rem; }
+.hbb-course-item {
+  display: flex; flex-direction: column; gap: 0.4rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid rgb(229, 231, 235);
+  border-left: 3px solid rgb(var(--color-primary-500));
+  border-radius: 0.5rem;
+  background: rgb(249, 250, 251);
+}
+.dark .hbb-course-item {
+  border-color: rgb(55, 65, 81);
+  border-left-color: rgb(var(--color-primary-400));
+  background: rgba(31, 41, 55, 0.4);
+}
+.hbb-course-title { font-weight: 600; font-size: 1.05rem; }
+.hbb-cohort {
+  align-self: flex-start; font-size: 0.8rem; font-weight: 500;
+  padding: 0.15rem 0.6rem; border-radius: 9999px;
+  color: rgb(var(--color-primary-700));
+  background: rgba(var(--color-primary-500), 0.12);
+}
+.dark .hbb-cohort {
+  color: rgb(var(--color-primary-200));
+  background: rgba(var(--color-primary-400), 0.18);
+}
