@@ -18,6 +18,10 @@ Lecture notes for Financial Economic Dynamics (FED), University of Galway, 2026-
 - [Mainstream Static: Fisher-Markowitz-Tobin Arc]({{< pdf "fisher_markowitz_tobin_slides.pdf" >}})
 - [Tobin's Separation Theorem]({{< pdf "tobin_separation_theorem_slides.pdf" >}})
 - [Tobin, CAPM and EMH: Restating the Separation Theorem]({{< pdf "tobin_capm_emh_slides.pdf" >}})
+- [Heterodox Finance: An Introduction]({{< pdf "heterodox_intro_slides.pdf" >}})
+- [Endogeneity of Risk: Kalecki's Principle of Increasing Risk]({{< pdf "kalecki_lecture1_slides.pdf" >}})
+- [Leverage and Two Interest Rates: The Failure of Tobin's Separation Theorem]({{< pdf "leverage_two_rates_slides.pdf" >}})
+- [Tobin versus Kalecki: Handout]({{< pdf "tobin_vs_kalecki_handout.pdf" >}})
 
 <!--
 To add a new week's notes once you have the PDF file:
