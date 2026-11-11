@@ -17,7 +17,7 @@ draft: false
   </div>
   <div class="hbb-course-item">
     <span class="hbb-course-title">Development Economics</span>
-    <span class="hbb-cohort">3rd Year · B.Comm.</span>
+    <span class="hbb-cohort">3rd Year · B.Comm. and Erasmus/International Students</span>
   </div>
   <div class="hbb-course-item">
     <span class="hbb-course-title">Research Seminar on Advanced Macroeconomics</span>
