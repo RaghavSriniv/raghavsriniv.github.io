@@ -10,35 +10,21 @@ draft: false
 
 ### University of Galway, Ireland — 2026-27
 
-<div class="hbb-course-list">
-  <div class="hbb-course-item">
-    <a class="hbb-course-title hbb-course-link" href="../fed_lecture_notes/">Financial Economic Dynamics (FED)</a>
-    <span class="hbb-cohort">4th Year · B.Sc. in Financial Mathematics and Economics</span>
-  </div>
-  <div class="hbb-course-item">
-    <span class="hbb-course-title">Development Economics</span>
-    <span class="hbb-cohort">3rd Year · B.Comm. and Erasmus/International Students</span>
-  </div>
-  <div class="hbb-course-item">
-    <span class="hbb-course-title">Research Seminar on Advanced Macroeconomics</span>
-    <span class="hbb-cohort">PhD in Economics and Social Sciences</span>
-  </div>
-</div>
-
+<ul class="hbb-clist">
+  <li><a class="hbb-clist-title hbb-course-link" href="../fed_lecture_notes/">Financial Economic Dynamics (FED)</a>
+    <span class="hbb-clist-sub">4th Year · B.Sc. in Financial Mathematics and Economics</span></li>
+  <li><span class="hbb-clist-title">Development Economics</span>
+    <span class="hbb-clist-sub">3rd Year · B.Comm. and Erasmus/International Students</span></li>
+  <li><span class="hbb-clist-title">Research Seminar on Advanced Macroeconomics</span>
+    <span class="hbb-clist-sub">PhD in Economics and Social Sciences</span></li>
+</ul>
 
 #### Special Lectures
 
-<div class="hbb-course-list">
-  <div class="hbb-course-item">
-    <a class="hbb-course-title hbb-course-link" href="{{< pdf "philosophy_methodology_macro_paradoxes_slides.pdf" >}}" target="_blank" rel="noopener">Philosophy and Methodology of Macroeconomics through Five Paradoxes</a>
-    <span class="hbb-course-desc">Thrift, wages and profits, debt, stability and bank runs: five paradoxes as a way into what kind of thing the economy is.</span>
-    <div class="hbb-tag-row">
-      <span class="hbb-cohort hbb-tag-special">Special Lecture · Ph.D. Economics and Social Sciences</span>
-      <span class="hbb-cohort hbb-tag-date">November 2026</span>
-    </div>
-  </div>
-</div>
-
+<ul class="hbb-clist">
+  <li><a class="hbb-clist-title hbb-course-link" href="{{< pdf "philosophy_methodology_macro_paradoxes_slides.pdf" >}}" target="_blank" rel="noopener">Philosophy and Methodology of Macroeconomics through Five Paradoxes</a>
+    <span class="hbb-clist-sub"><span class="hbb-clist-flag">Special Lecture</span> · PhD in Economics and Social Sciences · November 2026</span></li>
+</ul>
 
 ### Past courses
 
